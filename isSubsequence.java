@@ -1,6 +1,7 @@
 public class isSubsequence {
     public static void main(String[] args) {
-        System.out.println(is_Subsequence("", ""));
+        System.out.println(is_Subsequence("adsf", "afgsdssar"));
+        is_Subsequence("adsf", "afgsdssar");
     }
 
     public static boolean is_Subsequence(String s, String t) {
