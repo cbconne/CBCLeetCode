@@ -7,3 +7,8 @@ Java刷题&amp;练习Git/GitHub使用
   - [x] IDEA
 - [x] 最基础的md文件编写
 
+
+
+2020.7.28
+
+- 没事别乱用三目运算符orz
