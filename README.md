@@ -24,3 +24,9 @@ Java刷题&amp;练习Git/GitHub使用
 2020.8.4
 
 - get了Java的队的用法（并没有）
+
+
+
+2020.8.5
+
+- Map.getOrDefault(Object key, V defaultValue)：当Map集合中有指定的key时，返回该key对应的value，否则返回指定值。
