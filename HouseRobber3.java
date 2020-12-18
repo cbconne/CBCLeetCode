@@ -1,4 +1,4 @@
-public class IntegerBreak {
+public class HouseRobber3 {
     public static void main(String[] args) {
         System.out.println(integer_break(10));
     }
