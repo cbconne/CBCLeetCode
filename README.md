@@ -7,6 +7,7 @@
   - [2020.8.5](#202085)
   - [2020.8.31](#2020831)
   - [2020.12.18(FindtheDifference)](#20201218findthedifference)
+  - [2020.12.21(MinCostClimbingStairs)](#20201221mincostclimbingstairs)
 
 Java 刷题&amp;练习 Git/GitHub 使用
 
@@ -43,3 +44,11 @@ Java 刷题&amp;练习 Git/GitHub 使用
 
 md 解法也太骚了吧？第一种就常规解法，第二、三都是什么鬼啊！
 [找不同](https://leetcode-cn.com/problems/find-the-difference/solution/zhao-bu-tong-by-leetcode-solution-mtqf/)
+
+## 2020.12.21(MinCostClimbingStairs)
+
+1. 截取数组的方法：
+   1. System.arraycopy(源数组名称，源数组开始点，目标数组名称，目标数组开始点，拷贝长度);
+   2. java.util.Arrays.copyOf(源数组名称,新数组长度)；
+
+难得思路对了一次……结果思考的方向反了搞得时间复杂度爆炸orz
