@@ -9,6 +9,7 @@
   - [2020.12.18(FindtheDifference)](#20201218findthedifference)
   - [2020.12.21(MinCostClimbingStairs)](#20201221mincostclimbingstairs)
   - [2020.12.25](#20201225)
+  - [2020.12.28](#20201228)
 
 Java 刷题&amp;练习 Git/GitHub 使用
 
@@ -40,7 +41,7 @@ Java 刷题&amp;练习 Git/GitHub 使用
 
 ## 2020.12.18(FindtheDifference)
 
-1. String->charArray: toCharArray()
+1. String->charArray: toCharArray()s
 2. 判断 charArray 中是否含某个 char : Arrays.asList(charArray).contains(char)
 
 md 解法也太骚了吧？第一种就常规解法，第二、三都是什么鬼啊！
@@ -60,3 +61,16 @@ md 解法也太骚了吧？第一种就常规解法，第二、三都是什么�
    Arrays.sort()
 
 一遍过，舒服了。👍
+
+## 2020.12.28(BestTimetoBuyandSellStockIV)
+
+美好的一天从遇到困难结束。
+
+[买卖股票的最佳时机 IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/solution/mai-mai-gu-piao-de-zui-jia-shi-ji-iv-by-8xtkp/)
+
+1. 数组中的最大值：
+
+   Arrays.stream(sell[prices.length - 1]).max().getAsInt()
+
+   stream的相关知识记在notion里了。
+
