@@ -12,6 +12,7 @@
   - [2020.12.28(BestTimetoBuyandSellStockIV)](#20201228besttimetobuyandsellstockiv)
   - [2020.12.29(PatchingArray)](#20201229patchingarray)
   - [2020.12.30(LastStoneWeight)](#20201230laststoneweight)
+  - [2020.12.31(NonoverlappingIntervals)](#20201231nonoverlappingintervals)
 
 Java 刷题&amp;练习 Git/GitHub 使用
 
@@ -97,3 +98,26 @@ md 解法也太骚了吧？第一种就常规解法，第二、三都是什么�
    放入`PriorityQueue`的元素，必须实现`Comparable`接口，`PriorityQueue`会根据元素的排序顺序决定出队的优先级。
 
 看完题解自己写，一遍过，好耶~
+
+## 2020.12.31(NonoverlappingIntervals)
+
+美好的年末从完全没有思路的中等开始 🙂
+
+看题解前：什么玩意儿啊
+
+看题解后开始自己写前：不过如此
+
+自己开始写后：orz
+
+不过还好。
+
+1. Arrays.sort 中实现自定义排序：
+
+   ```java
+   Arrays.sort(intervals, new Comparator<int[]>() {
+               public int compare(int[] interval1, int[] interval2) {
+                   return interval1[1] - interval2[1];
+               }
+   ```
+
+   a<b 且要 a 排在 b 前面，则令实现的 compare 返回 a-b
