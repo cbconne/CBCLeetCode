@@ -16,6 +16,7 @@
   - [2021.1.4(Fibonacci)](#202114fibonacci)
   - [2021.1.5(PositionsofLargeGroups)](#202115positionsoflargegroups)
   - [2021.1.6(EvaluateDivision)](#202116evaluatedivision)
+  - [2021.1.7(NumberofProvinces)](#202117numberofprovinces)
 
 Java 刷题&amp;练习 Git/GitHub 使用
 
@@ -148,3 +149,9 @@ md 解法也太骚了吧？第一种就常规解法，第二、三都是什么�
 我认怂了，老老实实 cv。
 
 并查集：[算法学习笔记(1) : 并查集](https://zhuanlan.zhihu.com/p/93647900)
+
+## 2021.1.7(NumberofProvinces)
+
+真好，昨天并查集今天又来一道 orz……
+
+自己写的！不是 cv 了！~~虽然是边看资料边写的~~
