@@ -18,6 +18,7 @@
   - [2021.1.6(EvaluateDivision)](#202116evaluatedivision)
   - [2021.1.7(NumberofProvinces)](#202117numberofprovinces)
   - [2021.1.8(RotateArray)](#202118rotatearray)
+  - [2021.1.11(SmallestStringWithSwaps)](#2021111smalleststringwithswaps)
 
 Java 刷题&amp;练习 Git/GitHub 使用
 
@@ -195,3 +196,17 @@ md 解法也太骚了吧？第一种就常规解法，第二、三都是什么�
   |           翻转所有元素            | 7 6 5 4 3 2 1 |
   | 翻转 $[0,k\ {\rm mod}\ n-1]$ 区间 | 5 6 7 4 3 2 1 |
   | 翻转 $[k\ {\rm mod}\ n,n-1]$ 区间 | 5 6 7 1 2 3 4 |
+
+## 2021.1.11(SmallestStringWithSwaps)
+
+又是一道完全没有思路的 medium。
+
+又双叒叕是并查集？？？？？
+
+思路还是蛮清晰的：
+
+- 使用并查集，根据索引对合并所有属于同一个连通分量的索引
+- 不同连通分量的索引对应的元素进行排序
+- 遍历字符串，依次选择相应连通分量中字典序最小的字符
+
+但是代码太复杂了，我选择 CV 然后有空了再学习（大雾）
