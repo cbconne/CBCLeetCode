@@ -19,6 +19,8 @@
   - [2021.1.7(NumberofProvinces)](#202117numberofprovinces)
   - [2021.1.8(RotateArray)](#202118rotatearray)
   - [2021.1.11(SmallestStringWithSwaps)](#2021111smalleststringwithswaps)
+  - [2021.1.12(SortItemsbyGroupsRespectingDependencies)](#2021112sortitemsbygroupsrespectingdependencies)
+  - [2021.1.13(RedundantConnection)](#2021113redundantconnection)
 
 Java 刷题&amp;练习 Git/GitHub 使用
 
@@ -210,3 +212,13 @@ md 解法也太骚了吧？第一种就常规解法，第二、三都是什么�
 - 遍历字符串，依次选择相应连通分量中字典序最小的字符
 
 但是代码太复杂了，我选择 CV 然后有空了再学习（大雾）
+
+## 2021.1.12(SortItemsbyGroupsRespectingDependencies)
+
+hard，CV，告辞。
+
+## 2021.1.13(RedundantConnection)
+
+medium，可以试一试。
+
+nice，在 LeetCode 官方的折磨下已经逐渐掌握并查集了 🙂
