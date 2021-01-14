@@ -21,6 +21,7 @@
   - [2021.1.11(SmallestStringWithSwaps)](#2021111smalleststringwithswaps)
   - [2021.1.12(SortItemsbyGroupsRespectingDependencies)](#2021112sortitemsbygroupsrespectingdependencies)
   - [2021.1.13(RedundantConnection)](#2021113redundantconnection)
+  - [2021.1.14](#2021114)
 
 Java 刷题&amp;练习 Git/GitHub 使用
 
@@ -222,3 +223,13 @@ hard，CV，告辞。
 medium，可以试一试。
 
 nice，在 LeetCode 官方的折磨下已经逐渐掌握并查集了 🙂
+
+## 2021.1.14
+
+easy，好耶
+
+不过好像是个数学问题。
+
+$$
+(a+b)\%p=(a\%p+b\%p)\%p
+$$
