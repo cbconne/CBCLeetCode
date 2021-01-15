@@ -21,7 +21,8 @@
   - [2021.1.11(SmallestStringWithSwaps)](#2021111smalleststringwithswaps)
   - [2021.1.12(SortItemsbyGroupsRespectingDependencies)](#2021112sortitemsbygroupsrespectingdependencies)
   - [2021.1.13(RedundantConnection)](#2021113redundantconnection)
-  - [2021.1.14](#2021114)
+  - [2021.1.14(BinaryPrefixDivisibleBy5)](#2021114binaryprefixdivisibleby5)
+  - [2021.1.15(MostStonesRemovedwithSameRoworColumn)](#2021115moststonesremovedwithsameroworcolumn)
 
 Java 刷题&amp;练习 Git/GitHub 使用
 
@@ -224,7 +225,7 @@ medium，可以试一试。
 
 nice，在 LeetCode 官方的折磨下已经逐渐掌握并查集了 🙂
 
-## 2021.1.14
+## 2021.1.14(BinaryPrefixDivisibleBy5)
 
 easy，好耶
 
@@ -233,3 +234,21 @@ easy，好耶
 $$
 (a+b)\%p=(a\%p+b\%p)\%p
 $$
+
+## 2021.1.15(MostStonesRemovedwithSameRoworColumn)
+
+并查集它又 lei 了！
+
+本题关键：
+
+根据可以移除石头的规则：如果一块石头的同行或者同列上有其他石头存在，那么就可以移除这块石头。可以发现：**一定可以把一个连通图里的所有顶点根据这个规则删到只剩下一个顶点。**
+
+将同行同列的石头作为顶点，用直线连接则形成图。在同一个连通图里的石头可以遍历，则按照遍历的逆向移除石头则可只剩下最后一块。
+
+因此：**最多可以移除的石头的个数 = 所有石头的个数 - 连通分量的个数**。
+
+本来以为这么多天折磨下来已经掌握并查集了。
+
+但是完完全全自己默写并查集还是出错了好几次 😭。
+
+总之继续加油。
