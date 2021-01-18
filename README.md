@@ -23,6 +23,7 @@
   - [2021.1.13(RedundantConnection)](#2021113redundantconnection)
   - [2021.1.14(BinaryPrefixDivisibleBy5)](#2021114binaryprefixdivisibleby5)
   - [2021.1.15(MostStonesRemovedwithSameRoworColumn)](#2021115moststonesremovedwithsameroworcolumn)
+  - [2021.1.18(AccountsMerge)](#2021118accountsmerge)
 
 Java 刷题&amp;练习 Git/GitHub 使用
 
@@ -252,3 +253,87 @@ $$
 但是完完全全自己默写并查集还是出错了好几次 😭。
 
 总之继续加油。
+
+## 2021.1.18(AccountsMerge)
+
+这个月学不会并查集一个都别想走！
+
+`String[][]`转`List<List<String>>`整半天……
+
+```java
+String[][] accounts_l = {
+    { "John", "johnsmith@mail.com", "john00@mail.com" },
+    { "John", "johnnybravo@mail.com" },
+    { "John", "johnsmith@mail.com", "john_newyork@mail.com" },
+    { "Mary", "mary@mail.com" }
+};
+List<List<String>> accounts = new ArrayList<List<String>>();
+for (int i = 0; i < accounts_l.length; i++) {
+    accounts.add(Arrays.asList(accounts_l[i]));
+}
+```
+
+- 遍历 Map 类型
+
+  1. 在 for 循环中使用 entries 实现 Map 的遍历：
+
+     ```java
+     /**
+     * 最常见也是大多数情况下用的最多的，一般在键值对都需要使用
+      */
+     Map <String,String>map = new HashMap<String,String>();
+     map.put("熊大", "棕色");
+     map.put("熊二", "黄色");
+     for(Map.Entry<String, String> entry : map.entrySet()){
+         String mapKey = entry.getKey();
+         String mapValue = entry.getValue();
+         System.out.println(mapKey+":"+mapValue);
+     }
+     ```
+
+  2. 在 for 循环中遍历 key 或者 values，一般适用于只需要 map 中的 key 或者 value 时使用，在性能上比使用 entrySet 较好：
+
+     ```java
+     Map <String,String>map = new HashMap<String,String>();
+     map.put("熊大", "棕色");
+     map.put("熊二", "黄色");
+     //key
+     for(String key : map.keySet()){
+         System.out.println(key);
+     }
+     //value
+     for(String value : map.values()){
+         System.out.println(value);
+     }
+     ```
+
+  3. 通过 Iterator 遍历：
+
+     ```java
+     Iterator<Entry<String, String>> entries = map.entrySet().iterator();
+     while(entries.hasNext()){
+         Entry<String, String> entry = entries.next();
+         String key = entry.getKey();
+         String value = entry.getValue();
+         System.out.println(key+":"+value);
+     }
+     ```
+
+  4. 通过键找值遍历，这种方式的效率比较低，因为本身从键取值是耗时的操作：
+
+     ```java
+     for(String key : map.keySet()){
+         String value = map.get(key);
+         System.out.println(key+":"+value);
+     }
+     ```
+
+- List 排序
+
+  ```java
+  Collections.sort(List)
+  ```
+
+爷吐了，48/49，最后一个测试用例还巨 tmd 长……这根本没法找 bug 啊？！
+
+改了改之后全通过了但是超时了……md，老老实实 cv 过了……
