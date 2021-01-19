@@ -24,6 +24,7 @@
   - [2021.1.14(BinaryPrefixDivisibleBy5)](#2021114binaryprefixdivisibleby5)
   - [2021.1.15(MostStonesRemovedwithSameRoworColumn)](#2021115moststonesremovedwithsameroworcolumn)
   - [2021.1.18(AccountsMerge)](#2021118accountsmerge)
+  - [2021.1.19(MinCosttoConnectAllPoints)](#2021119mincosttoconnectallpoints)
 
 Java 刷题&amp;练习 Git/GitHub 使用
 
@@ -337,3 +338,37 @@ for (int i = 0; i < accounts_l.length; i++) {
 爷吐了，48/49，最后一个测试用例还巨 tmd 长……这根本没法找 bug 啊？！
 
 改了改之后全通过了但是超时了……md，老老实实 cv 过了……
+
+## 2021.1.19(MinCosttoConnectAllPoints)
+
+估计是做不来，看题解尽可能学习一下吧。
+
+- 最小生成树
+
+  能够满足任意两点之间有且仅有一条简单路径只有树，而当边有不同权值时，使得总权值最小的生成树为最小生成树。
+
+- Kruskal 算法
+
+  基本思想：从小到大加入边，是一个贪心算法。
+
+  流程：
+
+  1. 将图$G=\{V,E\}$中的所有边按照长度从小到大排序，等长的边任意排序。
+  2. 初始化图$G'$为$\{V,\varnothing\}$，从前向后扫描排序的边，如果该边在图中连接了两个相异的连通块，则将它插入图中。
+  3. 最后得到的图即为最小生成树。
+
+方法二太数学了……虽然逻辑推导很帅，但是太费脑子……
+
+按照方法一自己尝试下吧。
+
+- 自定义`Collections`的排序规则：
+
+  ```java
+  Collections.sort(edgeList, new Comparator<Edge>() {
+              public int compare(Edge edge1, Edge edge2) {
+                  return edge1.length - edge2.length;
+              }
+          });
+  ```
+
+都写了这么久并查集了结果还是会写错……orz
