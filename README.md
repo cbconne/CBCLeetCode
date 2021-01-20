@@ -372,3 +372,13 @@ for (int i = 0; i < accounts_l.length; i++) {
   ```
 
 都写了这么久并查集了结果还是会写错……orz
+
+## 2021.1.20(MaximumProductofThreeNumbers)
+
+Easy，没有并查集。
+
+愉快的一天就此开始~
+
+如果不是心情不好的话就更好了。
+
+一遍过，虽然看了些评论避免了一些坑。

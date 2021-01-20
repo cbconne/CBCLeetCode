@@ -10,7 +10,7 @@ public class EvaluateDivision {
     public static double[] calcEquation(List<List<String>> equations, double[] values, List<List<String>> queries) {
         int equationsSize = equations.size();
 
-        UnionFind unionFind = new UnionFind(2 * equationsSize);
+        // UnionFind unionFind = new UnionFind(2 * equationsSize);
         // 第 1 步：预处理，将变量的值与 id 进行映射，使得并查集的底层使用数组实现，方便编码
         Map<String, Integer> hashMap = new HashMap<>(2 * equationsSize);
         int id = 0;
