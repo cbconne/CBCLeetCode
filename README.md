@@ -25,6 +25,8 @@
   - [2021.1.15(MostStonesRemovedwithSameRoworColumn)](#2021115moststonesremovedwithsameroworcolumn)
   - [2021.1.18(AccountsMerge)](#2021118accountsmerge)
   - [2021.1.19(MinCosttoConnectAllPoints)](#2021119mincosttoconnectallpoints)
+  - [2021.1.20(MaximumProductofThreeNumbers)](#2021120maximumproductofthreenumbers)
+  - [2021.1.21(FindCriticalandPseudo-CriticalEdgesinMinimumSpanningTree)](#2021121findcriticalandpseudo-criticaledgesinminimumspanningtree)
 
 Java 刷题&amp;练习 Git/GitHub 使用
 
@@ -56,7 +58,7 @@ Java 刷题&amp;练习 Git/GitHub 使用
 
 ## 2020.12.18(FindtheDifference)
 
-1. String->charArray: toCharArray()s
+1. String->charArray: toCharArray()
 2. 判断 charArray 中是否含某个 char : Arrays.asList(charArray).contains(char)
 
 md 解法也太骚了吧？第一种就常规解法，第二、三都是什么鬼啊！
@@ -97,7 +99,7 @@ md 解法也太骚了吧？第一种就常规解法，第二、三都是什么�
 
 1. int 范围：-2147483648~2147483647（-2^31~2^31-1）
 
-   long 范围：-9223372036854775808 到 9223372036854775807（-2^63~2^63-1)
+   long 范围：-9223372036854775808 到 9223372036854775807（-2^63~2^63-1）
 
 ## 2020.12.30(LastStoneWeight)
 
@@ -382,3 +384,29 @@ Easy，没有并查集。
 如果不是心情不好的话就更好了。
 
 一遍过，虽然看了些评论避免了一些坑。
+
+## 2021.1.21(FindCriticalandPseudo-CriticalEdgesinMinimumSpanningTree)
+
+昨天一道 Easy 没有并查集，今天就上来一道 Hard……🤦‍
+
+这是不是过分了点啊！
+
+看上去题解一是给普通人看的，题解二嘛……Tarjan 算法是啥啊，还是简单学习一下吧，notion 见。
+
+- 题解一思路：
+
+  我们首先需要理解题目描述中对于「关键边」和「伪关键边」的定义：
+
+  关键边：如果最小生成树中删去某条边，会导致最小生成树的权值和增加，那么我们就说它是一条关键边。也就是说，如果设原图最小生成树的权值为 $\textit{value}$，那么去掉这条边后：
+
+  要么整个图不连通，不存在最小生成树；
+
+  要么整个图联通，对应的最小生成树的权值为 $v$，其严格大于 $\textit{value}$。
+
+  伪关键边：可能会出现在某些最小生成树中但不会出现在所有最小生成树中的边。也就是说，我们可以在计算最小生成树的过程中，最先考虑这条边，即最先将这条边的两个端点在并查集中合并。设最终得到的最小生成树权值为 $v$，如果 $v = \textit{value}$，那么这条边就是伪关键边。
+
+  需要注意的是，关键边也满足伪关键边对应的性质。因此，我们首先对原图执行 $\texttt{Kruskal}$ 算法，得到最小生成树的权值 $\textit{value}$，随后我们枚举每一条边，首先根据上面的方法判断其是否是关键边，如果不是关键边，再判断其是否是伪关键边。
+
+按照思路自己码代码两遍过了~好耶~
+
+（虽然用时 10.28%，内存 6.54% orz）
