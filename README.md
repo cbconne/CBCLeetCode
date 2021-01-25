@@ -27,6 +27,8 @@
   - [2021.1.19(MinCosttoConnectAllPoints)](#2021119mincosttoconnectallpoints)
   - [2021.1.20(MaximumProductofThreeNumbers)](#2021120maximumproductofthreenumbers)
   - [2021.1.21(FindCriticalandPseudo-CriticalEdgesinMinimumSpanningTree)](#2021121findcriticalandpseudo-criticaledgesinminimumspanningtree)
+  - [2021.1.22(AddtoArray-FormofInteger)](#2021122addtoarray-formofinteger)
+  - [2021.1.25(RegionsCutBySlashes)](#2021125regionscutbyslashes)
 
 Java 刷题&amp;练习 Git/GitHub 使用
 
@@ -416,3 +418,9 @@ Easy，没有并查集。
 Easy 题，好耶~~~
 
 参考了下题解，一遍过啦~
+
+## 2021.1.25(RegionsCutBySlashes)
+
+并查集它又 lei 了！
+
+稍微看了下题解有了思路之后自己写的，一遍过了，好耶~
