@@ -29,6 +29,7 @@
   - [2021.1.21(FindCriticalandPseudo-CriticalEdgesinMinimumSpanningTree)](#2021121findcriticalandpseudo-criticaledgesinminimumspanningtree)
   - [2021.1.22(AddtoArray-FormofInteger)](#2021122addtoarray-formofinteger)
   - [2021.1.25(RegionsCutBySlashes)](#2021125regionscutbyslashes)
+  - [2021.1.26(NumberofEquivalentDominoPairs)](#2021126numberofequivalentdominopairs)
 
 Java 刷题&amp;练习 Git/GitHub 使用
 
@@ -424,3 +425,11 @@ Easy 题，好耶~~~
 并查集它又 lei 了！
 
 稍微看了下题解有了思路之后自己写的，一遍过了，好耶~
+
+## 2021.1.26(NumberofEquivalentDominoPairs)
+
+Easy，好耶~
+
+虽然很多细节不是很明确以及参考了题解。
+
+但是一遍过了就是好事。
