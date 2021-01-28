@@ -30,6 +30,7 @@
   - [2021.1.22(AddtoArray-FormofInteger)](#2021122addtoarray-formofinteger)
   - [2021.1.25(RegionsCutBySlashes)](#2021125regionscutbyslashes)
   - [2021.1.26(NumberofEquivalentDominoPairs)](#2021126numberofequivalentdominopairs)
+  - [2021.1.28(FindPivotIndex)](#2021128findpivotindex)
 
 Java 刷题&amp;练习 Git/GitHub 使用
 
@@ -433,3 +434,9 @@ Easy，好耶~
 虽然很多细节不是很明确以及参考了题解。
 
 但是一遍过了就是好事。
+
+## 2021.1.28(FindPivotIndex)
+
+昨天忘记打卡了……算了就当放一天假。
+
+easy 还是很简单的……就是各种用例有点骚……
