@@ -31,6 +31,7 @@
   - [2021.1.25(RegionsCutBySlashes)](#2021125regionscutbyslashes)
   - [2021.1.26(NumberofEquivalentDominoPairs)](#2021126numberofequivalentdominopairs)
   - [2021.1.28(FindPivotIndex)](#2021128findpivotindex)
+  - [2021.1.29(PathWithMinimumEffort)](#2021129pathwithminimumeffort)
 
 Java 刷题&amp;练习 Git/GitHub 使用
 
@@ -440,3 +441,19 @@ Easy，好耶~
 昨天忘记打卡了……算了就当放一天假。
 
 easy 还是很简单的……就是各种用例有点骚……
+
+## 2021.1.29(PathWithMinimumEffort)
+
+方法有点多，CV 一下方法相关说明吧。
+
+- 「二分答案」：我们可以对最短路径的长度进行二分。当我们二分枚举到的长度为 $x$ 时，我们只保留所有长度 $\leq x$ 的边。随后从左上角开始进行搜索（深度优先搜索、广度优先搜索）均可，只需要判断是否能够到达右下角即可。如果能够到达右下角，我们就可以减小 $x$ 的值，反之增大 $x$ 的值。
+
+- 「并查集」：我们可以将所有边按照长度进行排序并依次添加进并查集，直到左上角和右下角连通为止。
+
+- 「最短路」：我们可以使用任一单源最短路径的算法（例如 Dijkstra 算法），只需要在维护当前路径长度时，将其修改为题目中的定义即可。
+
+虽然如此……但是我还是选择并查集。
+
+并查集 yyds！
+
+无 bug 两遍过，nice！
