@@ -32,6 +32,7 @@
   - [2021.1.26(NumberofEquivalentDominoPairs)](#2021126numberofequivalentdominopairs)
   - [2021.1.28(FindPivotIndex)](#2021128findpivotindex)
   - [2021.1.29(PathWithMinimumEffort)](#2021129pathwithminimumeffort)
+  - [2021.2.1(FairCandySwap)](#202121faircandyswap)
 
 Java 刷题&amp;练习 Git/GitHub 使用
 
@@ -460,8 +461,12 @@ easy 还是很简单的……就是各种用例有点骚……
 
 ## 2021.2.1(FairCandySwap)
 
-二月的第一天从一道美好的Easy开始，好耶~
+二月的第一天从一道美好的 Easy 开始，好耶~
 
 基本思路是对的。
 
 用哈希表空间复杂度上会好一点？时间复杂度应该是一样的。
+
+## 2021.2.2(LongestRepeatingCharacterReplacement)
+
+主要还是思路，知道思路后实现其实不困难。
