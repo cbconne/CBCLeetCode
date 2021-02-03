@@ -33,6 +33,8 @@
   - [2021.1.28(FindPivotIndex)](#2021128findpivotindex)
   - [2021.1.29(PathWithMinimumEffort)](#2021129pathwithminimumeffort)
   - [2021.2.1(FairCandySwap)](#202121faircandyswap)
+  - [2021.2.2(LongestRepeatingCharacterReplacement)](#202122longestrepeatingcharacterreplacement)
+  - [2021.2.3(SlidingWindowMedian)](#202123slidingwindowmedian)
 
 Java 刷题&amp;练习 Git/GitHub 使用
 
@@ -470,3 +472,18 @@ easy 还是很简单的……就是各种用例有点骚……
 ## 2021.2.2(LongestRepeatingCharacterReplacement)
 
 主要还是思路，知道思路后实现其实不困难。
+
+## 2021.2.3(SlidingWindowMedian)
+
+美好的一天从一道 hard 开始。
+
+二月滑窗月，懂了。
+
+看了下题解想 CV 了……orz……
+
+有点难理解啊。
+
+记录下题解的思路吧：
+
+1. 双优先队列：分别记录滑窗内较小的一半和较大的一半；
+2. 延迟删除：因为优先队列无法做到删除非堆顶元素，所以加入哈希表，对需要删除的元素进行标记，等到其成为堆顶时进行删除。
