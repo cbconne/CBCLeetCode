@@ -36,6 +36,7 @@
   - [2021.2.2(LongestRepeatingCharacterReplacement)](#202122longestrepeatingcharacterreplacement)
   - [2021.2.3(SlidingWindowMedian)](#202123slidingwindowmedian)
   - [2021.2.4(MaximumAverageSubarrayI)](#202124maximumaveragesubarrayi)
+  - [2021.2.5(GetEqualSubstringsWithinBudget)](#202125getequalsubstringswithinbudget)
 
 Java 刷题&amp;练习 Git/GitHub 使用
 
@@ -500,3 +501,13 @@ easy 还是很简单的……就是各种用例有点骚……
 对不起我错了 orz
 
 md 一道 easy 错的次数比 hard、medium 都要多 🙂
+
+## 2021.2.5(GetEqualSubstringsWithinBudget)
+
+重点还是理解题意和思路。
+
+看完题解之后觉得不难实现。
+
+鉴于这个月是双指针月，那么就用双指针的方法写吧。
+
+一遍过，很舒服。
