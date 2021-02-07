@@ -37,6 +37,7 @@
   - [2021.2.3(SlidingWindowMedian)](#202123slidingwindowmedian)
   - [2021.2.4(MaximumAverageSubarrayI)](#202124maximumaveragesubarrayi)
   - [2021.2.5(GetEqualSubstringsWithinBudget)](#202125getequalsubstringswithinbudget)
+  - [2021.2.7(Non_decreasingArray)](#202127non_decreasingarray)
 
 Java 刷题&amp;练习 Git/GitHub 使用
 
@@ -511,3 +512,7 @@ md 一道 easy 错的次数比 hard、medium 都要多 🙂
 鉴于这个月是双指针月，那么就用双指针的方法写吧。
 
 一遍过，很舒服。
+
+## 2021.2.7(Non_decreasingArray)
+
+还是需要好好理解题意，实现并不困难。
