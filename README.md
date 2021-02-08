@@ -38,6 +38,7 @@
   - [2021.2.4(MaximumAverageSubarrayI)](#202124maximumaveragesubarrayi)
   - [2021.2.5(GetEqualSubstringsWithinBudget)](#202125getequalsubstringswithinbudget)
   - [2021.2.7(Non_decreasingArray)](#202127non_decreasingarray)
+  - [2021.2.8(LongestTurbulentSubarray)](#202128longestturbulentsubarray)
 
 Java 刷题&amp;练习 Git/GitHub 使用
 
@@ -516,3 +517,11 @@ md 一道 easy 错的次数比 hard、medium 都要多 🙂
 ## 2021.2.7(Non_decreasingArray)
 
 还是需要好好理解题意，实现并不困难。
+
+## 2021.2.8(LongestTurbulentSubarray)
+
+题目要求很奇怪，理解起来很困难……
+
+然后莫名其妙的小错误特别多……
+
+总之还是过了，虽然看了题解。
