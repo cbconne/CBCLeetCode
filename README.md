@@ -40,6 +40,7 @@
   - [2021.2.7(Non_decreasingArray)](#202127non_decreasingarray)
   - [2021.2.8(LongestTurbulentSubarray)](#202128longestturbulentsubarray)
   - [2021.2.9(SubarrayswithKDifferentIntegers)](#202129subarrayswithkdifferentintegers)
+  - [2021.2.19(MaxConsecutiveOnesIII)](#2021219maxconsecutiveonesiii)
 
 Java 刷题&amp;练习 Git/GitHub 使用
 
@@ -555,3 +556,9 @@ md 一道 easy 错的次数比 hard、medium 都要多 🙂
 没有利用这一点的话 right 就需要回头，导致超时。
 
 **双指针要尽量避免回头！**
+
+## 2021.2.19(MaxConsecutiveOnesIII)
+
+这不是和二号的题本质上一模一样吗 orz
+
+好吧有点不一样……
