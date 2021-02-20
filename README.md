@@ -41,6 +41,7 @@
   - [2021.2.8(LongestTurbulentSubarray)](#202128longestturbulentsubarray)
   - [2021.2.9(SubarrayswithKDifferentIntegers)](#202129subarrayswithkdifferentintegers)
   - [2021.2.19(MaxConsecutiveOnesIII)](#2021219maxconsecutiveonesiii)
+  - [2021.2.20(DegreeofanArray)](#2021220degreeofanarray)
 
 Java 刷题&amp;练习 Git/GitHub 使用
 
@@ -562,3 +563,11 @@ md 一道 easy 错的次数比 hard、medium 都要多 🙂
 这不是和二号的题本质上一模一样吗 orz
 
 好吧有点不一样……
+
+上班第一天状态不太行……看题解理解了下直接 CV 了
+
+## 2021.2.20(DegreeofanArray)
+
+Easy，好耶~
+
+呜呜呜，好久不见的一遍过
