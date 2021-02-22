@@ -42,6 +42,7 @@
   - [2021.2.9(SubarrayswithKDifferentIntegers)](#202129subarrayswithkdifferentintegers)
   - [2021.2.19(MaxConsecutiveOnesIII)](#2021219maxconsecutiveonesiii)
   - [2021.2.20(DegreeofanArray)](#2021220degreeofanarray)
+  - [2021.2.22(ToeplitzMatrix)](#2021222toeplitzmatrix)
 
 Java 刷题&amp;练习 Git/GitHub 使用
 
@@ -571,3 +572,9 @@ md 一道 easy 错的次数比 hard、medium 都要多 🙂
 Easy，好耶~
 
 呜呜呜，好久不见的一遍过
+
+## 2021.2.22(ToeplitzMatrix)
+
+Easy……
+
+而且还是最 easy 的那种 easy……
