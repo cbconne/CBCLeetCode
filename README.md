@@ -603,3 +603,19 @@ System.out.println(Arrays.toString(arr2));
 //打印二维数组的内容
 System.out.println(Arrays.deepToString(arr2));
 ```
+
+## 2021.2.25(TransposeMatrix)
+
+最近怎么一直是这种 easy……虽然我也不是抖 M
+
+## 2021.2.26(NumberofValidWordsforEachPuzzle)
+
+淦，我错了，别这样啊。
+
+突然就一道 hard，是不是过分了啊。
+
+忘写了，淦……
+
+## 2021.3.1(RangeSumQuery_Immutable)
+
+前缀和 orz……
