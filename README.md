@@ -43,6 +43,13 @@
   - [2021.2.19(MaxConsecutiveOnesIII)](#2021219maxconsecutiveonesiii)
   - [2021.2.20(DegreeofanArray)](#2021220degreeofanarray)
   - [2021.2.22(ToeplitzMatrix)](#2021222toeplitzmatrix)
+  - [2021.2.23(GrumpyBookstoreOwner)](#2021223grumpybookstoreowner)
+  - [2021.2.24(FlippinganImage)](#2021224flippinganimage)
+  - [2021.2.25(TransposeMatrix)](#2021225transposematrix)
+  - [2021.2.26(NumberofValidWordsforEachPuzzle)](#2021226numberofvalidwordsforeachpuzzle)
+  - [2021.3.1(RangeSumQuery_Immutable)](#202131rangesumquery_immutable)
+  - [2021.3.2(RangeSumQuery2D_Immutable)](#202132rangesumquery2d_immutable)
+  - [2021.3.3(CountingBits)](#202133countingbits)
 
 Java 刷题&amp;练习 Git/GitHub 使用
 
@@ -619,3 +626,19 @@ System.out.println(Arrays.deepToString(arr2));
 ## 2021.3.1(RangeSumQuery_Immutable)
 
 前缀和 orz……
+
+## 2021.3.2(RangeSumQuery2D_Immutable)
+
+二维前缀和
+
+## 2021.3.3(CountingBits)
+
+好家伙，题解直接三个 dp 怼脸上……
+
+争取理解一种好吧。
+
+关键点：
+
+利用位运算的技巧，可以在一定程度上提升计算速度。按位与运算（&）的一个性质是：对于任意整数 xx，令 x=x & (x-1)，该运算将 x 的二进制表示的最后一个 1 变成 0。因此，对 x 重复该操作，直到 x 变成 0，则操作次数即为 x 的「一比特数」。
+
+能理解题意并懂得上面的关键点的话其实还好……
