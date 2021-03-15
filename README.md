@@ -50,6 +50,9 @@
   - [2021.3.1(RangeSumQuery_Immutable)](#202131rangesumquery_immutable)
   - [2021.3.2(RangeSumQuery2D_Immutable)](#202132rangesumquery2d_immutable)
   - [2021.3.3(CountingBits)](#202133countingbits)
+  - [2021.3.4(RussianDollEnvelopes)](#202134russiandollenvelopes)
+  - [2021.3.8(PalindromePartitioningII)](#202138palindromepartitioningii)
+  - [2021.3.15(SpiralMatrix)](#2021315spiralmatrix)
 
 Java 刷题&amp;练习 Git/GitHub 使用
 
@@ -646,3 +649,25 @@ System.out.println(Arrays.deepToString(arr2));
 ## 2021.3.4(RussianDollEnvelopes)
 
 又双叒叕碰到了自定义排序，
+
+## 2021.3.8(PalindromePartitioningII)
+
+不是吧，三天没碰，一回来就是一道 Hard？不讲武德啊？
+
+动态规划判断是否回文串：
+
+> 设 $f(i,j)$ 表示 s[i..j]是否为回文串，那么可得状态转移方程
+>
+> $$f(i,j)=\begin{cases}True&i\ge j\\f(i+1,j-1)\wedge(s[i]=s[j])&otherwise\end{cases}$$
+>
+> 其中 ^ 表示与运算。
+
+首先使用 $g(i,j)$ 存储布尔值，表示 $s[i..j]$ 是否为回文串。
+
+然后从 0 开始遍历到 n，分别用 $f[i]$ 表示 $s[0..i]$ 的最小分割次数。
+
+$g(0,i)=True$ 的时候，$f[i]=0$ 不需要分割。
+
+否则 j 从 0 一直遍历到 i，找到 $s[j+1..i]$ 为回文串，$f[i]$ 取 $f[j]+1$ 的最小值。
+
+## 2021.3.15(SpiralMatrix)
