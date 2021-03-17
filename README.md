@@ -54,6 +54,7 @@
   - [2021.3.8(PalindromePartitioningII)](#202138palindromepartitioningii)
   - [2021.3.15(SpiralMatrix)](#2021315spiralmatrix)
   - [2021.3.16(SpiralMatrixII)](#2021316spiralmatrixii)
+  - [2021.3.17(DistinctSubsequences)](#2021317distinctsubsequences)
 
 Java 刷题&amp;练习 Git/GitHub 使用
 
@@ -674,3 +675,50 @@ $g(0,i)=True$ 的时候，$f[i]=0$ 不需要分割。
 ## 2021.3.15(SpiralMatrix)
 
 ## 2021.3.16(SpiralMatrixII)
+
+## 2021.3.17(DistinctSubsequences)
+
+Hard 动归还是有点恶心的……
+
+1. 存储动态规划计算结果：
+
+   本题中为$dp[i][j]$，表示 s 的前 j 个字符串的子序列中出现 t 的前 i 个字符串的个数。
+
+2. 边界条件：
+
+   $dp[0][j]$：s 的前 j 个字符串的子序列中出现空字符串的个数，易知为 1（将所有字符删除）
+
+   $dp[i][0]$：空字符串的子序列中出现的非空字符串的个数，易知为 0
+
+3. 状态转移方程：
+
+   最恶心的东西来了。
+
+   ![Snipaste_2021-03-17_08-46-00](C:\Users\u3666\Desktop\WORK\学习\Java\CBCLeetCode\picture\Snipaste_2021-03-17_08-46-00.png)
+
+   $dp[i-1][j-1]$：由上图可知，若$s[j]==t[i]$，任意$dp[i-1][j-1]$计数过的子序列都会在$dp[i][j]$产生一个对应的子序列
+
+   ![Snipaste_2021-03-17_09-15-20](C:\Users\u3666\Desktop\WORK\学习\Java\CBCLeetCode\picture\Snipaste_2021-03-17_09-15-20.png)
+
+   $dp[i-1][j]$：如上图
+
+   ![Snipaste_2021-03-17_09-16-20](C:\Users\u3666\Desktop\WORK\学习\Java\CBCLeetCode\picture\Snipaste_2021-03-17_09-16-20.png)
+
+   $dp[i][j-1]$：如上图，可知该情况计数过的子序列也必属于$dp[i][j]$
+
+   $dp[i][j]$略
+
+   根据以上分析可得到以下情况：
+
+   考虑 s 和 t 的最后一个字符是否对齐（相等且作为计算子序列时与 t 最后一位对应）
+
+   - 对齐：此时$dp[i][j]=dp[i-1][j-1]$
+   - 不对齐：此时$dp[i][j]=dp[i][j-1]$
+
+   当$s[j]==t[i]$，考虑对齐、不对齐两种情况，否则仅不对齐一种情况。
+
+   因此可得状态转移方程如下：
+
+   $$dp[i][j]=\left \{ \begin{array}{c} dp[i][j-1]+dp[i-1][j-1]&s[j]==t[i]\\dp[i][j-1]&else \end{array} \right.$$
+
+   芜湖，一遍过了，虽然思路完全是看题解才想通的。
