@@ -58,6 +58,7 @@
   - [2021.3.18(ReverseLinkedListII)](#2021318reverselinkedlistii)
   - [2021.3.19(DesignParkingSystem)](#2021319designparkingsystem)
   - [2021.4.6(RemoveDuplicatesfromSortedArrayII)](#202146removeduplicatesfromsortedarrayii)
+  - [2021.4.7(SearchinRotatedSortedArrayII)](#202147searchinrotatedsortedarrayii)
 
 Java 刷题&amp;练习 Git/GitHub 使用
 
@@ -744,3 +745,15 @@ Hard 动归还是有点恶心的……
 好久没正经写 LeetCode 了 orz……
 
 改用 IDEA，VSCode 地位进一步下降
+
+## 2021.4.7(SearchinRotatedSortedArrayII)
+
+> 对于有序数组可以使用二分法查找元素。
+> 但对于本身不是有序而是进行**旋转**后局部有序的数组二分查找同样适用。
+
+nums 在预先未知的某个下标 k（0 <= k < nums.length）上进行了 旋转，使数组变为 [nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]（下标 从 0 开始 计数）。例如， [0,1,2,4,5,6,7] 在下标 3 处经旋转后可能变为  [4,5,6,7,0,1,2]
+
+> 可以发现，将数组从中间分开的时候，一定有一部分的数组是有序的。
+> 因此每次进行二分后可根据有序的部分决定后续查找范围。
+
+果然完全自己写就会反复提交反复出错，哭了
