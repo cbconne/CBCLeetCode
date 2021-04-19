@@ -59,6 +59,7 @@
   - [2021.3.19(DesignParkingSystem)](#2021319designparkingsystem)
   - [2021.4.6(RemoveDuplicatesfromSortedArrayII)](#202146removeduplicatesfromsortedarrayii)
   - [2021.4.7(SearchinRotatedSortedArrayII)](#202147searchinrotatedsortedarrayii)
+  - [2021.4.19(RemoveElement)](#2021419removeelement)
 
 Java 刷题&amp;练习 Git/GitHub 使用
 
@@ -757,3 +758,11 @@ nums 在预先未知的某个下标 k（0 <= k < nums.length）上进行了 旋�
 > 因此每次进行二分后可根据有序的部分决定后续查找范围。
 
 果然完全自己写就会反复提交反复出错，哭了
+
+## 2021.4.19(RemoveElement)
+
+这半个月忙死了都没空刷 leetCode……
+
+希望 easy 能够友好一点。
+
+确实挺友好的。（虽然还是写复杂了 orz）
