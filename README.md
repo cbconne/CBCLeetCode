@@ -61,6 +61,7 @@
   - [2021.4.7(SearchinRotatedSortedArrayII)](#202147searchinrotatedsortedarrayii)
   - [2021.4.19(RemoveElement)](#2021419removeelement)
   - [2021.4.23(LargestDivisibleSubset)](#2021423largestdivisiblesubset)
+  - [2021.4.25(IncreasingOrderSearchTree)](#2021425increasingordersearchtree)
 
 Java 刷题&amp;练习 Git/GitHub 使用
 
@@ -784,3 +785,9 @@ dp[i]表示第 i 个数为最大值时能够组成的最大整数子集个数。
 
 将该数添加入结果列表中。
 重复该步骤，最终即得满足要求的数组。
+
+## 2021.4.25(IncreasingOrderSearchTree)
+
+easy 我重拳出击！
+好吧不会，看题解。
+（其实也不是不会，中序遍历之后复制一棵树就好，想看下有没有骚的）
