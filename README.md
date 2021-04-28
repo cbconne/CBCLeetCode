@@ -63,6 +63,7 @@
   - [2021.4.23(LargestDivisibleSubset)](#2021423largestdivisiblesubset)
   - [2021.4.25(IncreasingOrderSearchTree)](#2021425increasingordersearchtree)
   - [2021.4.26(CapacityToShipPackagesWithinDDays)](#2021426capacitytoshippackageswithinddays)
+  - [2021.4.28(SumofSquareNumbers)](#2021428sumofsquarenumbers)
 
 Java 刷题&amp;练习 Git/GitHub 使用
 
@@ -800,3 +801,7 @@ medium 我唯唯诺诺！
 二分查找……
 
 一遍过，欧耶~
+
+## 2021.4.28(SumofSquareNumbers)
+
+比较简单
