@@ -64,6 +64,7 @@
   - [2021.4.25(IncreasingOrderSearchTree)](#2021425increasingordersearchtree)
   - [2021.4.26(CapacityToShipPackagesWithinDDays)](#2021426capacitytoshippackageswithinddays)
   - [2021.4.28(SumofSquareNumbers)](#2021428sumofsquarenumbers)
+  - [2021.4.29(FrogJump)](#2021429frogjump)
 
 Java 刷题&amp;练习 Git/GitHub 使用
 
@@ -805,3 +806,35 @@ medium 我唯唯诺诺！
 ## 2021.4.28(SumofSquareNumbers)
 
 比较简单
+
+## 2021.4.29(FrogJump)
+
+两种方法都看太累了，理解一种吧。
+
+动态规划：
+
+令$dp[i][k]$表示青蛙能否到达“现在所处的石子编号”为 i，且“上一次跳跃距离”为 k 的状态。
+
+因此，对于长度为 n 的 stones，只要在 k 使得 dp[n-1][k]=true 即表明能够到达对面
+
+可得状态转移方程：
+
+$$
+dp[i][k]=dp[j][k-1]\lor dp[j][k]\lor dp[j][k+1]
+$$
+
+j 表示“上一次所在石子编号”，满足$stones[i]-stones[j]=k$
+
+对于第 i 个石子，我们枚举所有的 j，则$k=stones[i]-stones[j]$
+若$dp[j][k-1]\lor dp[j][k]\lor dp[j][k+1]==true$即可
+
+为优化运行速率，推出以下两个结论：
+
+1. “现在所在石子编号”为 i 时，“上一次跳跃距离”k 必定满足$k\le i$
+
+   - 青蛙位于第 0 个石子上，上一次跳跃距离为 0，之后每次跳跃所在石子编号至少增加 1，跳跃距离至多增加 1
+   - 跳跃 m 次后，“所在石子编号”$i\ge m$，“上一次跳跃距离”$k\le m$，因此$k\le i$
+   - 因此从后向前枚举“上一次所在石子编号”时，当“上一次跳跃距离”k 超过了 j+1 时，即可停止跳跃
+
+2. 当第 i 个石子与第 i-1 个石子距离超过 i 时，青蛙必定无法到达终点
+   - 因此可提前检查是否有相邻石子不满足要求，如果有提前返回 false
