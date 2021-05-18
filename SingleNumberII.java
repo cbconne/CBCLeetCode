@@ -7,7 +7,7 @@ public class SingleNumberII {
     }
 
     public int singleNumber(int[] nums) {
-        Map<Integer, Integer> freq = new HashMap<Integer, Integer>();
+        Map<Integer, Integer> freq = new HashMap<>();
         for (int num : nums) {
             freq.put(num, freq.getOrDefault(num, 0) + 1);
         }
