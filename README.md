@@ -65,6 +65,9 @@
   - [2021.4.26(CapacityToShipPackagesWithinDDays)](#2021426capacitytoshippackageswithinddays)
   - [2021.4.28(SumofSquareNumbers)](#2021428sumofsquarenumbers)
   - [2021.4.29(FrogJump)](#2021429frogjump)
+  - [2021.4.30(SingleNumberII)](#2021430singlenumberii)
+  - [2021.5.6(DecodeXORedArray)](#202156decodexoredarray)
+  - [2021.5.18(CountTripletsThatCanFormTwoArraysofEqualXOR)](#2021518counttripletsthatcanformtwoarraysofequalxor)
 
 Java 刷题&amp;练习 Git/GitHub 使用
 
@@ -838,3 +841,26 @@ j 表示“上一次所在石子编号”，满足$stones[i]-stones[j]=k$
 
 2. 当第 i 个石子与第 i-1 个石子距离超过 i 时，青蛙必定无法到达终点
    - 因此可提前检查是否有相邻石子不满足要求，如果有提前返回 false
+
+## 2021.4.30(SingleNumberII)
+
+四月最后一天，噶油
+
+不好意思题目太骚了，我放弃
+
+## 2021.5.6(DecodeXORedArray)
+
+$$
+encoded[i-1]=arr[i-1]\oplus arr[i]\\
+endoded[i-1]\oplus arr[i-1]=arr[i-1]\oplus arr[i]\oplus arr[i-1]\\
+arr[i-1]\oplus encoded[i-1]=arr[i]\oplus arr[i-1]\oplus arr[i-1]\\
+arr[i-1]\oplus encoded[i-1]=arr[i]
+$$
+
+## 2021.5.18(CountTripletsThatCanFormTwoArraysofEqualXOR)
+
+归根结底又是数学题
+
+敲数学公式太累了，直接给链接吧
+
+[形成两个异或相等数组的三元组数目](https://leetcode-cn.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/solution/xing-cheng-liang-ge-yi-huo-xiang-deng-sh-jud0/)
