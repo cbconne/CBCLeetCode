@@ -68,6 +68,7 @@
   - [2021.4.30(SingleNumberII)](#2021430singlenumberii)
   - [2021.5.6(DecodeXORedArray)](#202156decodexoredarray)
   - [2021.5.18(CountTripletsThatCanFormTwoArraysofEqualXOR)](#2021518counttripletsthatcanformtwoarraysofequalxor)
+  - [2021.5.24(StrangePrinter)](#2021524strangeprinter)
 
 Java 刷题&amp;练习 Git/GitHub 使用
 
@@ -864,3 +865,25 @@ $$
 敲数学公式太累了，直接给链接吧
 
 [形成两个异或相等数组的三元组数目](https://leetcode-cn.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/solution/xing-cheng-liang-ge-yi-huo-xiang-deng-sh-jud0/)
+
+## 2021.5.24(StrangePrinter)
+
+动态规划：
+
+令$f[i][j]$表示打印完区间$[i,j]$的最少操作数
+
+1. 当$s[i]=s[j]$时，$f[i][j]=f[i][j-1]$，因为打印左侧字符时即可顺便完成右侧字符，而后中间字符的修改基于此，不涉及最右侧字符。
+2. 当$s[i]\ne s[j]$时，需要分别完成左右两部分的打印，分别记为$[i,k],[k+1,j]$，此时$f[i][j]=\min^{j-1}_{k=i}f[i][k]+f[k+1][j]$。
+
+因此状态转移方程如下：
+
+$$
+f[i][j]=\left \{ \begin{array}{lr}
+f[i][j-1],&s[i]=s[j]\\
+\min^{j-1}_{k=i}f[i][k]+f[k+1][j],&s[i]\ne s[j]
+ \end{array} \right .
+$$
+
+边界条件$f[i][i]=1$
+
+动归问题最难的都不是代码实现，而是状态转移方程和边界条件的明确……
