@@ -69,104 +69,106 @@
   - [2021.5.6(DecodeXORedArray)](#202156decodexoredarray)
   - [2021.5.18(CountTripletsThatCanFormTwoArraysofEqualXOR)](#2021518counttripletsthatcanformtwoarraysofequalxor)
   - [2021.5.24(StrangePrinter)](#2021524strangeprinter)
+  - [2021.6.7(TargetSum)](#202167targetsum)
+  - [2021.6.24](#2021624)
 
-Java ˢ��&amp;��ϰ Git/GitHub ʹ��
+Java 刷题&amp;练习 Git/GitHub 使用
 
-- [x] ʹ�� Git �ϴ�����
-  - [x] Git Bash������ǲ�ס��
+- [x] 使用 Git 上传代码
+  - [x] Git Bash（命令记不住）
   - [x] Git Gui
   - [x] IDEA
-- [x] ������� md �ļ���д
+- [x] 最基础的 md 文件编写
 
 ## 2020.7.28
 
-- û�±�������Ŀ����� orz
+- 没事别乱用三目运算符 orz
 
 ## 2020.7.30
 
-- ������Ŀ̫��ûд�����쿴�������Լ�д�ģ����ڶ�̬�滮�˽⻹��̫ǳ��֮�����������ٿ���
+- 昨天题目太难没写，今天看了题解后自己写的，对于动态规划了解还是太浅，之后碰到可以再看看
 
 ## 2020.8.4
 
-- get �� Java �Ķӵ��÷�����û�У�
+- get 了 Java 的队的用法（并没有）
 
 ## 2020.8.5
 
-- Map.getOrDefault(Object key, V defaultValue)���� Map ��������ָ���� key ʱ�����ظ� key ��Ӧ�� value�����򷵻�ָ��ֵ��
+- Map.getOrDefault(Object key, V defaultValue)：当 Map 集合中有指定的 key 时，返回该 key 对应的 value，否则返回指定值。
 
 ## 2020.8.31
 
-- �þ�ûˢ�ˣ����쳢����ʹ�� VSCode ʵ�ִ����ύ��VSCode ����ĺ��� ?
+- 好久没刷了，今天尝试了使用 VSCode 实现代码提交，VSCode 是真的好用 ?
 
 ## 2020.12.18(FindtheDifference)
 
 1. String->charArray: toCharArray()
-2. �ж� charArray ���Ƿ�ĳ�� char : Arrays.asList(charArray).contains(char)
+2. 判断 charArray 中是否含某个 char : Arrays.asList(charArray).contains(char)
 
-md �ⷨҲ̫ɧ�˰ɣ���һ�־ͳ���ⷨ���ڶ���������ʲô������
-[�Ҳ�ͬ](https://leetcode-cn.com/problems/find-the-difference/solution/zhao-bu-tong-by-leetcode-solution-mtqf/)
+md 解法也太骚了吧？第一种就常规解法，第二、三都是什么鬼啊！
+[找不同](https://leetcode-cn.com/problems/find-the-difference/solution/zhao-bu-tong-by-leetcode-solution-mtqf/)
 
 ## 2020.12.21(MinCostClimbingStairs)
 
-1. ��ȡ����ķ�����
-   1. System.arraycopy(Դ�������ƣ�Դ���鿪ʼ�㣬Ŀ���������ƣ�Ŀ�����鿪ʼ�㣬��������);
-   2. java.util.Arrays.copyOf(Դ��������,�����鳤��)��
+1. 截取数组的方法：
+   1. System.arraycopy(源数组名称，源数组开始点，目标数组名称，目标数组开始点，拷贝长度);
+   2. java.util.Arrays.copyOf(源数组名称,新数组长度)；
 
-�ѵ�˼·����һ�Ρ������˼���ķ����˸��ʱ�临�Ӷȱ�ը orz
+难得思路对了一次……结果思考的方向反了搞得时间复杂度爆炸 orz
 
 ## 2020.12.25
 
-1. �������� Arrays.sort()
+1. 数组排序： Arrays.sort()
 
-һ���������ˡ�?
+一遍过，舒服了。?
 
 ## 2020.12.28(BestTimetoBuyandSellStockIV)
 
-���õ�һ����������ѽ�����
+美好的一天从遇到困难结束。
 
-[������Ʊ�����ʱ�� IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/solution/mai-mai-gu-piao-de-zui-jia-shi-ji-iv-by-8xtkp/)
+[买卖股票的最佳时机 IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/solution/mai-mai-gu-piao-de-zui-jia-shi-ji-iv-by-8xtkp/)
 
-1. �����е����ֵ��
+1. 数组中的最大值：
 
    Arrays.stream(sell[prices.length - 1]).max().getAsInt()
 
-   stream �����֪ʶ���� notion ���ˡ�
+   stream 的相关知识记在 notion 里了。
 
 ## 2020.12.29(PatchingArray)
 
-���õĵڶ�����������ѽ���
+美好的第二天从遇到困难结束
 
-[��Ҫ��������](https://leetcode-cn.com/problems/patching-array/)
+[按要求补齐数组](https://leetcode-cn.com/problems/patching-array/)
 
-1. int ��Χ��-2147483648~2147483647��-2^31~2^31-1��
+1. int 范围：-2147483648~2147483647（-2^31~2^31-1）
 
-   long ��Χ��-9223372036854775808 �� 9223372036854775807��-2^63~2^63-1��
+   long 范围：-9223372036854775808 到 9223372036854775807（-2^63~2^63-1）
 
 ## 2020.12.30(LastStoneWeight)
 
-���õĵ�����ӡ����򵥰�����û���� ?
+美好的第三天从……简单啊，那没事了 ?
 
-�ȵȣ����ǲ����� ?
+等等，还是不会做 ?
 
-1. PriorityQueue��`PriorityQueue`��`Queue`���������ڣ����ĳ���˳����Ԫ�ص����ȼ��йأ���`PriorityQueue`����`remove()`��`poll()`���������ص��������ȼ���ߵ�Ԫ�ء�
+1. PriorityQueue：`PriorityQueue`和`Queue`的区别在于，它的出队顺序与元素的优先级有关，对`PriorityQueue`调用`remove()`或`poll()`方法，返回的总是优先级最高的元素。
 
-   ����`PriorityQueue`��Ԫ�أ�����ʵ��`Comparable`�ӿڣ�`PriorityQueue`�����Ԫ�ص�����˳��������ӵ����ȼ���
+   放入`PriorityQueue`的元素，必须实现`Comparable`接口，`PriorityQueue`会根据元素的排序顺序决定出队的优先级。
 
-��������Լ�д��һ�������Ү~
+看完题解自己写，一遍过，好耶~
 
 ## 2020.12.31(NonoverlappingIntervals)
 
-���õ���ĩ����ȫû��˼·���еȿ�ʼ ?
+美好的年末从完全没有思路的中等开始 ?
 
-�����ǰ��ʲô�������
+看题解前：什么玩意儿啊
 
-������ʼ�Լ�дǰ���������
+看题解后开始自己写前：不过如此
 
-�Լ���ʼд��orz
+自己开始写后：orz
 
-�������á�
+不过还好。
 
-1. Arrays.sort ��ʵ���Զ�������
+1. Arrays.sort 中实现自定义排序：
 
    ```java
    Arrays.sort(intervals, new Comparator<int[]>() {
@@ -175,104 +177,104 @@ md �ⷨҲ̫ɧ�˰ɣ���һ�־ͳ���ⷨ���ڶ���������ʲô������
                }
    ```
 
-   a<b ��Ҫ a ���� b ǰ�棬����ʵ�ֵ� compare ���� a-b
+   a<b 且要 a 排在 b 前面，则令实现的 compare 返回 a-b
 
 ## 2021.1.4(Fibonacci)
 
-�����һ������õļ�쳲�������ʼ����Ȼ����Ϊ����������ڵ�ԭ��
+新年第一题从美好的简单斐波那契开始（虽然是因为鸽了三天假期的原因）
 
-��򵥵ķ����ܼ򵥣����Ǻ�������ѧ����������
+最简单的方法很简单，但是后两种数学方法？？？
 
-��Ȼ�����ƴ�������ƴ��ѧ����
+果然计算机拼到最后还是拼数学……
 
 ## 2021.1.5(PositionsofLargeGroups)
 
-���õ�һ��� easy ��ʼ����Ȼ��֪���϶����и���ɧ���ⷽ����
+美好的一天从 easy 开始（虽然我知道肯定会有各种骚解题方法）
 
-1. ��`List<> a`����`List<List<>> b`�У�Ȼ���`a`ִ��`a.clear`��`b`�е�Ԫ��Ҳ�ᱻ�����`b`�д�ŵ���`a`�ĵ�ַ����Ԫ�أ������Ҫ��ȸ���һ���µ�`List<>`��
+1. 将`List<> a`放入`List<List<>> b`中，然后对`a`执行`a.clear`，`b`中的元素也会被清除：`b`中存放的是`a`的地址并非元素，因此需要深度复制一个新的`List<>`。
 
-��Ȼû��ɧ��������������
+竟然没有骚操作？？？？？
 
 ## 2021.1.6(EvaluateDivision)
 
-���õ�ˢ��ֱ������һ�������������� Medium ����
+美好的刷题直到遇到一道看都看不懂的 Medium 结束
 
-�������ˣ�����ʵʵ cv��
+我认怂了，老老实实 cv。
 
-���鼯��[�㷨ѧϰ�ʼ�(1) : ���鼯](https://zhuanlan.zhihu.com/p/93647900)
+并查集：[算法学习笔记(1) : 并查集](https://zhuanlan.zhihu.com/p/93647900)
 
 ## 2021.1.7(NumberofProvinces)
 
-��ã����첢�鼯��������һ�� orz����
+真好，昨天并查集今天又来一道 orz……
 
-�Լ�д�ģ����� cv �ˣ�~~��Ȼ�Ǳ߿����ϱ�д��~~
+自己写的！不是 cv 了！~~虽然是边看资料边写的~~
 
 ## 2021.1.8(RotateArray)
 
-�ѶȲ��ߣ����ǿ����ӷ��� Medium ������ΪҪ��⣿
+难度不高，但是看样子放在 Medium 里是因为要多解？
 
-����һ��ʹ�ö������顣�����ǿռ临�ӶȵĻ�̫�򵥣��Թ���
+方法一：使用额外数组。不考虑空间复杂度的话太简单，略过；
 
-����������״��������� ing��
+方法二：环状替代。理解 ing；
 
-�����������鷭ת��ͦ������ġ�
+方法三：数组翻转。挺好理解的。
 
-- ��״���
+- 环状替代
 
-  ������ʱ����`temp`�������`temp = nums[0]`�����չ�����`x=(0+k) mod n`������`temp`��`nums[x]`���Դ����ơ�ֱ�����س�ʼλ�� 0��
+  设置临时变量`temp`，最初令`temp = nums[0]`，按照规则，令`x=(0+k) mod n`，交换`temp`和`nums[x]`，以此类推。直至返回初始位置 0。
 
-  ��֪���������鳤�Ⱥ� k �Ĳ�ͬ�����ص���ʼλ�� 0 ʱ���ܴ��ڲ�������δ����������ʱӦ������һ�����ֿ�ʼ���Ϲ��̡�
+  可知，根据数组长度和 k 的不同，当回到初始位置 0 时可能存在部分数字未被遍历，此时应当从下一个数字开始以上过程。
 
-  �� 0 ��ʼ�ص� 0 ʱ��ǡ����������Ȧ`a`����Ϊ����һ��Ԫ����Ҫ��`k`�񣬱���Ԫ�ظ���Ϊ`b`ʱ��
+  从 0 开始回到 0 时，恰好走了整数圈`a`，因为遍历一次元素需要走`k`格，遍历元素个数为`b`时有
 
   $$ an=bk $$
 
-  ��Ϊ��һ�λص����ʱ��ֹͣ�����`a`Ӧ��ȡ��Сֵ
+  因为第一次回到起点时就停止，因此`a`应当取最小值
 
-- ���鷭ת
+- 数组翻转
 
-  �����ǽ������Ԫ�������ƶ� $k$�κ�β�� $k\ {\rm{mod}}\ n$��Ԫ�ػ��ƶ�������ͷ��������Ԫ������ƶ� $k\ {\rm{mod}}\ n$ ��λ�á�
+  当我们将数组的元素向右移动 $k$次后，尾部 $k\ {\rm{mod}}\ n$个元素会移动至数组头部，其余元素向后移动 $k\ {\rm{mod}}\ n$ 个位置。
 
-  �Ƚ�����Ԫ�ط�ת����β���� $k\ {\rm{mod}}\ n$ ��Ԫ����������ͷ����Ȼ���ٷֱ�ת $[0,k\ {\rm mod}\ n-1]$ ����� $[k\ {\rm mod}\ n,n-1]$ �����Ԫ�ؼ��ɡ�
+  先将所有元素翻转，将尾部的 $k\ {\rm{mod}}\ n$ 个元素移至数组头部，然后再分别翻转 $[0,k\ {\rm mod}\ n-1]$ 区间和 $[k\ {\rm mod}\ n,n-1]$ 区间的元素即可。
 
-  ʾ����$n=7,k=3$
+  示例：$n=7,k=3$
 
-  |               ����                |     ���      |
+  |               操作                |     结果      |
   | :-------------------------------: | :-----------: |
-  |             ԭʼ����              | 1 2 3 4 5 6 7 |
-  |           ��ת����Ԫ��            | 7 6 5 4 3 2 1 |
-  | ��ת $[0,k\ {\rm mod}\ n-1]$ ���� | 5 6 7 4 3 2 1 |
-  | ��ת $[k\ {\rm mod}\ n,n-1]$ ���� | 5 6 7 1 2 3 4 |
+  |             原始数组              | 1 2 3 4 5 6 7 |
+  |           翻转所有元素            | 7 6 5 4 3 2 1 |
+  | 翻转 $[0,k\ {\rm mod}\ n-1]$ 区间 | 5 6 7 4 3 2 1 |
+  | 翻转 $[k\ {\rm mod}\ n,n-1]$ 区间 | 5 6 7 1 2 3 4 |
 
 ## 2021.1.11(SmallestStringWithSwaps)
 
-����һ����ȫû��˼·�� medium��
+又是一道完全没有思路的 medium。
 
-��˫�����ǲ��鼯����������
+又双叒叕是并查集？？？？？
 
-˼·�����������ģ�
+思路还是蛮清晰的：
 
-- ʹ�ò��鼯�����������Ժϲ���������ͬһ����ͨ����������
-- ��ͬ��ͨ������������Ӧ��Ԫ�ؽ�������
-- �����ַ���������ѡ����Ӧ��ͨ�������ֵ�����С���ַ�
+- 使用并查集，根据索引对合并所有属于同一个连通分量的索引
+- 不同连通分量的索引对应的元素进行排序
+- 遍历字符串，依次选择相应连通分量中字典序最小的字符
 
-���Ǵ���̫�����ˣ���ѡ�� CV Ȼ���п�����ѧϰ��������
+但是代码太复杂了，我选择 CV 然后有空了再学习（大雾）
 
 ## 2021.1.12(SortItemsbyGroupsRespectingDependencies)
 
-hard��CV����ǡ�
+hard，CV，告辞。
 
 ## 2021.1.13(RedundantConnection)
 
-medium��������һ�ԡ�
+medium，可以试一试。
 
-nice���� LeetCode �ٷ�����ĥ���Ѿ������ղ��鼯�� ?
+nice，在 LeetCode 官方的折磨下已经逐渐掌握并查集了 ?
 
 ## 2021.1.14(BinaryPrefixDivisibleBy5)
 
-easy����Ү
+easy，好耶
 
-���������Ǹ���ѧ���⡣
+不过好像是个数学问题。
 
 $$
 (a+b)\%p=(a\%p+b\%p)\%p
@@ -280,27 +282,27 @@ $$
 
 ## 2021.1.15(MostStonesRemovedwithSameRoworColumn)
 
-���鼯���� lei �ˣ�
+并查集它又 lei 了！
 
-����ؼ���
+本题关键：
 
-���ݿ����Ƴ�ʯͷ�Ĺ������һ��ʯͷ��ͬ�л���ͬ����������ʯͷ���ڣ���ô�Ϳ����Ƴ����ʯͷ�����Է��֣�**һ�����԰�һ����ͨͼ������ж�������������ɾ��ֻʣ��һ�����㡣**
+根据可以移除石头的规则：如果一块石头的同行或者同列上有其他石头存在，那么就可以移除这块石头。可以发现：**一定可以把一个连通图里的所有顶点根据这个规则删到只剩下一个顶点。**
 
-��ͬ��ͬ�е�ʯͷ��Ϊ���㣬��ֱ���������γ�ͼ����ͬһ����ͨͼ���ʯͷ���Ա��������ձ����������Ƴ�ʯͷ���ֻʣ�����һ�顣
+将同行同列的石头作为顶点，用直线连接则形成图。在同一个连通图里的石头可以遍历，则按照遍历的逆向移除石头则可只剩下最后一块。
 
-��ˣ�**�������Ƴ���ʯͷ�ĸ��� = ����ʯͷ�ĸ��� - ��ͨ�����ĸ���**��
+因此：**最多可以移除的石头的个数 = 所有石头的个数 - 连通分量的个数**。
 
-������Ϊ��ô������ĥ�����Ѿ����ղ��鼯�ˡ�
+本来以为这么多天折磨下来已经掌握并查集了。
 
-��������ȫȫ�Լ�Ĭд���鼯���ǳ����˺ü��� ?��
+但是完完全全自己默写并查集还是出错了好几次 ?。
 
-��֮�������͡�
+总之继续加油。
 
 ## 2021.1.18(AccountsMerge)
 
-�����ѧ���Ტ�鼯һ���������ߣ�
+这个月学不会并查集一个都别想走！
 
-`String[][]`ת`List<List<String>>`�����졭��
+`String[][]`转`List<List<String>>`整半天……
 
 ```java
 String[][]accounts_l={
@@ -315,17 +317,17 @@ String[][]accounts_l={
         }
 ```
 
-- ���� Map ����
+- 遍历 Map 类型
 
-  1. �� for ѭ����ʹ�� entries ʵ�� Map �ı�����
+  1. 在 for 循环中使用 entries 实现 Map 的遍历：
 
      ```java
      /**
-     * ���Ҳ�Ǵ����������õ����ģ�һ���ڼ�ֵ�Զ���Ҫʹ��
+     * 最常见也是大多数情况下用的最多的，一般在键值对都需要使用
       */
      Map <String,String>map = new HashMap<String,String>();
-     map.put("�ܴ�", "��ɫ");
-     map.put("�ܶ�", "��ɫ");
+     map.put("熊大", "棕色");
+     map.put("熊二", "黄色");
      for(Map.Entry<String, String> entry : map.entrySet()){
          String mapKey = entry.getKey();
          String mapValue = entry.getValue();
@@ -333,12 +335,12 @@ String[][]accounts_l={
      }
      ```
 
-  2. �� for ѭ���б��� key ���� values��һ��������ֻ��Ҫ map �е� key ���� value ʱʹ�ã��������ϱ�ʹ�� entrySet �Ϻã�
+  2. 在 for 循环中遍历 key 或者 values，一般适用于只需要 map 中的 key 或者 value 时使用，在性能上比使用 entrySet 较好：
 
      ```java
      Map <String,String>map = new HashMap<String,String>();
-     map.put("�ܴ�", "��ɫ");
-     map.put("�ܶ�", "��ɫ");
+     map.put("熊大", "棕色");
+     map.put("熊二", "黄色");
      //key
      for(String key : map.keySet()){
          System.out.println(key);
@@ -349,7 +351,7 @@ String[][]accounts_l={
      }
      ```
 
-  3. ͨ�� Iterator ������
+  3. 通过 Iterator 遍历：
 
      ```java
      Iterator<Entry<String, String>> entries = map.entrySet().iterator();
@@ -361,7 +363,7 @@ String[][]accounts_l={
      }
      ```
 
-  4. ͨ������ֵ���������ַ�ʽ��Ч�ʱȽϵͣ���Ϊ�����Ӽ�ȡֵ�Ǻ�ʱ�Ĳ�����
+  4. 通过键找值遍历，这种方式的效率比较低，因为本身从键取值是耗时的操作：
 
      ```java
      for(String key : map.keySet()){
@@ -370,39 +372,39 @@ String[][]accounts_l={
      }
      ```
 
-- List ����
+- List 排序
 
   ```java
   Collections.sort(List)
   ```
 
-ү���ˣ�48/49�����һ�������������� tmd �����������û���� bug ������
+爷吐了，48/49，最后一个测试用例还巨 tmd 长……这根本没法找 bug 啊？！
 
-���˸�֮��ȫͨ���˵��ǳ�ʱ�ˡ���md������ʵʵ cv ���ˡ���
+改了改之后全通过了但是超时了……md，老老实实 cv 过了……
 
 ## 2021.1.19(MinCosttoConnectAllPoints)
 
-������������������⾡����ѧϰһ�°ɡ�
+估计是做不来，看题解尽可能学习一下吧。
 
-- ��С������
+- 最小生成树
 
-  �ܹ�������������֮�����ҽ���һ����·��ֻ�������������в�ͬȨֵʱ��ʹ����Ȩֵ��С��������Ϊ��С��������
+  能够满足任意两点之间有且仅有一条简单路径只有树，而当边有不同权值时，使得总权值最小的生成树为最小生成树。
 
-- Kruskal �㷨
+- Kruskal 算法
 
-  ����˼�룺��С�������ߣ���һ��̰���㷨��
+  基本思想：从小到大加入边，是一个贪心算法。
 
-  ���̣�
+  流程：
 
-  1. ��ͼ$G=\{V,E\}$�е����б߰��ճ��ȴ�С�������򣬵ȳ��ı���������
-  2. ��ʼ��ͼ$G'$Ϊ$\{V,\varnothing\}$����ǰ���ɨ������ıߣ�����ñ���ͼ�������������������ͨ�飬��������ͼ�С�
-  3. ���õ���ͼ��Ϊ��С��������
+  1. 将图$G=\{V,E\}$中的所有边按照长度从小到大排序，等长的边任意排序。
+  2. 初始化图$G'$为$\{V,\varnothing\}$，从前向后扫描排序的边，如果该边在图中连接了两个相异的连通块，则将它插入图中。
+  3. 最后得到的图即为最小生成树。
 
-������̫��ѧ�ˡ�����Ȼ�߼��Ƶ���˧������̫�����ӡ���
+方法二太数学了……虽然逻辑推导很帅，但是太费脑子……
 
-���շ���һ�Լ������°ɡ�
+按照方法一自己尝试下吧。
 
-- �Զ���`Collections`���������
+- 自定义`Collections`的排序规则：
 
   ```java
   Collections.sort(edgeList, new Comparator<Edge>() {
@@ -412,280 +414,280 @@ String[][]accounts_l={
           });
   ```
 
-��д����ô�ò��鼯�˽�����ǻ�д������orz
+都写了这么久并查集了结果还是会写错……orz
 
 ## 2021.1.20(MaximumProductofThreeNumbers)
 
-Easy��û�в��鼯��
+Easy，没有并查集。
 
-����һ��ʹ˿�ʼ~
+愉快的一天就此开始~
 
-����������鲻�õĻ��͸����ˡ�
+如果不是心情不好的话就更好了。
 
-һ�������Ȼ����Щ���۱�����һЩ�ӡ�
+一遍过，虽然看了些评论避免了一些坑。
 
 ## 2021.1.21(FindCriticalandPseudo-CriticalEdgesinMinimumSpanningTree)
 
-����һ�� Easy û�в��鼯�����������һ�� Hard����??
+昨天一道 Easy 没有并查集，今天就上来一道 Hard……??
 
-���ǲ��ǹ����˵㰡��
+这是不是过分了点啊！
 
-����ȥ���һ�Ǹ���ͨ�˿��ģ��������Tarjan �㷨��ɶ�������Ǽ�ѧϰһ�°ɣ�notion ����
+看上去题解一是给普通人看的，题解二嘛……Tarjan 算法是啥啊，还是简单学习一下吧，notion 见。
 
-- ���һ˼·��
+- 题解一思路：
 
-  ����������Ҫ������Ŀ�����ж��ڡ��ؼ��ߡ��͡�α�ؼ��ߡ��Ķ��壺
+  我们首先需要理解题目描述中对于「关键边」和「伪关键边」的定义：
 
-  �ؼ��ߣ������С��������ɾȥĳ���ߣ��ᵼ����С��������Ȩֵ�����ӣ���ô���Ǿ�˵����һ���ؼ��ߡ�Ҳ����˵�������ԭͼ��С��������ȨֵΪ $\textit{value}$����ôȥ�������ߺ�
+  关键边：如果最小生成树中删去某条边，会导致最小生成树的权值和增加，那么我们就说它是一条关键边。也就是说，如果设原图最小生成树的权值为 $\textit{value}$，那么去掉这条边后：
 
-  Ҫô����ͼ����ͨ����������С��������
+  要么整个图不连通，不存在最小生成树；
 
-  Ҫô����ͼ��ͨ����Ӧ����С��������ȨֵΪ $v$�����ϸ���� $\textit{value}$��
+  要么整个图联通，对应的最小生成树的权值为 $v$，其严格大于 $\textit{value}$。
 
-  α�ؼ��ߣ����ܻ������ĳЩ��С�������е����������������С�������еıߡ�Ҳ����˵�����ǿ����ڼ�����С�������Ĺ����У����ȿ��������ߣ������Ƚ������ߵ������˵��ڲ��鼯�кϲ��������յõ�����С������ȨֵΪ $v$����� $v =
-  \textit{value}$����ô�����߾���α�ؼ��ߡ�
+  伪关键边：可能会出现在某些最小生成树中但不会出现在所有最小生成树中的边。也就是说，我们可以在计算最小生成树的过程中，最先考虑这条边，即最先将这条边的两个端点在并查集中合并。设最终得到的最小生成树权值为 $v$，如果 $v =
+  \textit{value}$，那么这条边就是伪关键边。
 
-  ��Ҫע����ǣ��ؼ���Ҳ����α�ؼ��߶�Ӧ�����ʡ���ˣ��������ȶ�ԭͼִ�� $\texttt{Kruskal}$ �㷨���õ���С��������Ȩֵ
-  $\textit{value}$���������ö��ÿһ���ߣ����ȸ�������ķ����ж����Ƿ��ǹؼ��ߣ�������ǹؼ��ߣ����ж����Ƿ���α�ؼ��ߡ�
+  需要注意的是，关键边也满足伪关键边对应的性质。因此，我们首先对原图执行 $\texttt{Kruskal}$ 算法，得到最小生成树的权值
+  $\textit{value}$，随后我们枚举每一条边，首先根据上面的方法判断其是否是关键边，如果不是关键边，再判断其是否是伪关键边。
 
-����˼·�Լ�������������~��Ү~
+按照思路自己码代码两遍过了~好耶~
 
-����Ȼ��ʱ 10.28%���ڴ� 6.54% orz��
+（虽然用时 10.28%，内存 6.54% orz）
 
 ## 2021.1.22(AddtoArray-FormofInteger)
 
-Easy �⣬��Ү~~~
+Easy 题，好耶~~~
 
-�ο�������⣬һ�����~
+参考了下题解，一遍过啦~
 
 ## 2021.1.25(RegionsCutBySlashes)
 
-���鼯���� lei �ˣ�
+并查集它又 lei 了！
 
-��΢�������������˼·֮���Լ�д�ģ�һ����ˣ���Ү~
+稍微看了下题解有了思路之后自己写的，一遍过了，好耶~
 
 ## 2021.1.26(NumberofEquivalentDominoPairs)
 
-Easy����Ү~
+Easy，好耶~
 
-��Ȼ�ܶ�ϸ�ڲ��Ǻ���ȷ�Լ��ο�����⡣
+虽然很多细节不是很明确以及参考了题解。
 
-����һ����˾��Ǻ��¡�
+但是一遍过了就是好事。
 
 ## 2021.1.28(FindPivotIndex)
 
-�������Ǵ��ˡ������˾͵���һ��١�
+昨天忘记打卡了……算了就当放一天假。
 
-easy ���Ǻܼ򵥵ġ������Ǹ��������е�ɧ����
+easy 还是很简单的……就是各种用例有点骚……
 
 ## 2021.1.29(PathWithMinimumEffort)
 
-�����е�࣬CV һ�·������˵���ɡ�
+方法有点多，CV 一下方法相关说明吧。
 
-- �����ִ𰸡������ǿ��Զ����·���ĳ��Ƚ��ж��֡������Ƕ���ö�ٵ��ĳ���Ϊ $x$ ʱ������ֻ�������г��� $\leq x$
-  �ıߡ��������Ͻǿ�ʼ���������������������������������������ɣ�ֻ��Ҫ�ж��Ƿ��ܹ��������½Ǽ��ɡ�����ܹ��������½ǣ����ǾͿ��Լ�С $x$ ��ֵ����֮���� $x$ ��ֵ��
+- 「二分答案」：我们可以对最短路径的长度进行二分。当我们二分枚举到的长度为 $x$ 时，我们只保留所有长度 $\leq x$
+  的边。随后从左上角开始进行搜索（深度优先搜索、广度优先搜索）均可，只需要判断是否能够到达右下角即可。如果能够到达右下角，我们就可以减小 $x$ 的值，反之增大 $x$ 的值。
 
-- �����鼯�������ǿ��Խ����б߰��ճ��Ƚ��������������ӽ����鼯��ֱ�����ϽǺ����½���ͨΪֹ��
+- 「并查集」：我们可以将所有边按照长度进行排序并依次添加进并查集，直到左上角和右下角连通为止。
 
-- �����·�������ǿ���ʹ����һ��Դ���·�����㷨������ Dijkstra �㷨����ֻ��Ҫ��ά����ǰ·������ʱ�������޸�Ϊ��Ŀ�еĶ��弴�ɡ�
+- 「最短路」：我们可以使用任一单源最短路径的算法（例如 Dijkstra 算法），只需要在维护当前路径长度时，将其修改为题目中的定义即可。
 
-��Ȼ��ˡ��������һ���ѡ�񲢲鼯��
+虽然如此……但是我还是选择并查集。
 
-���鼯 yyds��
+并查集 yyds！
 
-�� bug �������nice��
+无 bug 两遍过，nice！
 
 ## 2021.2.1(FairCandySwap)
 
-���µĵ�һ���һ�����õ� Easy ��ʼ����Ү~
+二月的第一天从一道美好的 Easy 开始，好耶~
 
-����˼·�ǶԵġ�
+基本思路是对的。
 
-�ù�ϣ���ռ临�Ӷ��ϻ��һ�㣿ʱ�临�Ӷ�Ӧ����һ���ġ�
+用哈希表空间复杂度上会好一点？时间复杂度应该是一样的。
 
 ## 2021.2.2(LongestRepeatingCharacterReplacement)
 
-��Ҫ����˼·��֪��˼·��ʵ����ʵ�����ѡ�
+主要还是思路，知道思路后实现其实不困难。
 
 ## 2021.2.3(SlidingWindowMedian)
 
-���õ�һ���һ�� hard ��ʼ��
+美好的一天从一道 hard 开始。
 
-���»����£����ˡ�
+二月滑窗月，懂了。
 
-����������� CV �ˡ���orz����
+看了下题解想 CV 了……orz……
 
-�е������Ⱑ��
+有点难理解啊。
 
-��¼������˼·�ɣ�
+记录下题解的思路吧：
 
-1. ˫���ȶ��У��ֱ��¼�����ڽ�С��һ��ͽϴ��һ�룻
-2. �ӳ�ɾ������Ϊ���ȶ����޷�����ɾ���ǶѶ�Ԫ�أ����Լ����ϣ��������Ҫɾ����Ԫ�ؽ��б�ǣ��ȵ����Ϊ�Ѷ�ʱ����ɾ����
+1. 双优先队列：分别记录滑窗内较小的一半和较大的一半；
+2. 延迟删除：因为优先队列无法做到删除非堆顶元素，所以加入哈希表，对需要删除的元素进行标记，等到其成为堆顶时进行删除。
 
 ## 2021.2.4(MaximumAverageSubarrayI)
 
-��������ΨΨŵŵ CV
+困难题我唯唯诺诺 CV
 
-��������ȭ����
+简单题我重拳出击
 
-ƽ�������+���ָ���ȷ��==�ܺ����
+平均数最大+数字个数确定==总和最大
 
-�Բ����Ҵ��� orz
+对不起我错了 orz
 
-md һ�� easy ���Ĵ����� hard��medium ��Ҫ�� ?
+md 一道 easy 错的次数比 hard、medium 都要多 ?
 
 ## 2021.2.5(GetEqualSubstringsWithinBudget)
 
-�ص㻹�����������˼·��
+重点还是理解题意和思路。
 
-�������֮����ò���ʵ�֡�
+看完题解之后觉得不难实现。
 
-�����������˫ָ���£���ô����˫ָ��ķ���д�ɡ�
+鉴于这个月是双指针月，那么就用双指针的方法写吧。
 
-һ������������
+一遍过，很舒服。
 
 ## 2021.2.7(Non_decreasingArray)
 
-������Ҫ�ú��������⣬ʵ�ֲ������ѡ�
+还是需要好好理解题意，实现并不困难。
 
 ## 2021.2.8(LongestTurbulentSubarray)
 
-��ĿҪ�����֣��������������ѡ���
+题目要求很奇怪，理解起来很困难……
 
-Ȼ��Ī�������С�����ر�࡭��
+然后莫名其妙的小错误特别多……
 
-��֮���ǹ��ˣ���Ȼ������⡣
+总之还是过了，虽然看了题解。
 
 ## 2021.2.9(SubarrayswithKDifferentIntegers)
 
-��ǰ���һ�죬��һ�� hard �⿪ʼ ?
+年前最后一天，从一道 hard 题开始 ?
 
-˼·����⣩��
+思路（题解）：
 
-����һ���̶�����߽���˵�����㡸ǡ�ô��� `K` ����ͬ�����������䡹���ұ߽� **��Ψһ**�����γ����䡣
+对于一个固定的左边界来说，满足「恰好存在 `K` 个不同整数的子区间」的右边界 **不唯一**，且形成区间。
 
-�ѡ�ǡ�á��ĳɡ���ࡹ�Ϳ���ʹ��˫ָ��һǰһ�������ҵķ�����ɣ�������Ϊ ����ÿһ��ȷ������߽磬������ `K` �ֲ�ͬ�������ұ߽���Ψһȷ���ģ���������߽������ƶ��Ĺ����У��ұ߽������ԭ���ĵط���������ԭ���ط����ұߡ�
+把「恰好」改成「最多」就可以使用双指针一前一后交替向右的方法完成，这是因为 对于每一个确定的左边界，最多包含 `K` 种不同整数的右边界是唯一确定的，并且在左边界向右移动的过程中，右边界或者在原来的地方，或者在原来地方的右边。
 
-���������� `K` ����ͬ������������ĸ������롸ǡ�ô��� `K` ����ͬ������������ĸ������Ĳ�ǡ�õ��ڡ������� `K?1` ����ͬ������������ĸ�������
+而「最多存在 `K` 个不同整数的子区间的个数」与「恰好存在 `K` 个不同整数的子区间的个数」的差恰好等于「最多存在 `K?1` 个不同整数的子区间的个数」。
 
-|  ������ K �ֲ�ͬ������������  | ������ K-1 �ֲ�ͬ������������ |
+|  最多包含 K 种不同整数的子区间  | 最多包含 K-1 种不同整数的子区间 |
 | :-----------------------------: | :-----------------------------: |
-|  ǡ�ð��� 1 �ֲ�ͬ������������  |  ǡ�ð��� 1 �ֲ�ͬ������������  |
-|  ǡ�ð��� 2 �ֲ�ͬ������������  |  ǡ�ð��� 2 �ֲ�ͬ������������  |
-|  ǡ�ð��� 3 �ֲ�ͬ������������  |  ǡ�ð��� 3 �ֲ�ͬ������������  |
-|               ����                |               ����                |
-| ǡ�ð��� K-1 �ֲ�ͬ������������ | ǡ�ð��� K-1 �ֲ�ͬ������������ |
-|  ǡ�ð��� K �ֲ�ͬ������������  |                                 |
+|  恰好包含 1 种不同整数的子区间  |  恰好包含 1 种不同整数的子区间  |
+|  恰好包含 2 种不同整数的子区间  |  恰好包含 2 种不同整数的子区间  |
+|  恰好包含 3 种不同整数的子区间  |  恰好包含 3 种不同整数的子区间  |
+|               ……                |               ……                |
+| 恰好包含 K-1 种不同整数的子区间 | 恰好包含 K-1 种不同整数的子区间 |
+|  恰好包含 K 种不同整数的子区间  |                                 |
 
-**�ؼ��㣺**
+**关键点：**
 
-�� left��right ȷ����һ����İ��� K ����ͬ������������ʱ��ͬһ�� left ���������Ҫ���������ĸ�����Ϊ�����䳤�ȡ�
+当 left、right 确定了一个最长的包含 K 个不同整数的子区间时，同一个 left 且满足相关要求的子数组的个数即为该区间长度。
 
-û��������һ��Ļ� right ����Ҫ��ͷ�����³�ʱ��
+没有利用这一点的话 right 就需要回头，导致超时。
 
-**˫ָ��Ҫ���������ͷ��**
+**双指针要尽量避免回头！**
 
 ## 2021.2.19(MaxConsecutiveOnesIII)
 
-�ⲻ�ǺͶ��ŵ��Ȿ����һģһ���� orz
+这不是和二号的题本质上一模一样吗 orz
 
-�ð��е㲻һ������
+好吧有点不一样……
 
-�ϰ��һ��״̬��̫�С����������������ֱ�� CV ��
+上班第一天状态不太行……看题解理解了下直接 CV 了
 
 ## 2021.2.20(DegreeofanArray)
 
-Easy����Ү~
+Easy，好耶~
 
-�����أ��þò�����һ���
+呜呜呜，好久不见的一遍过
 
 ## 2021.2.22(ToeplitzMatrix)
 
-Easy����
+Easy……
 
-���һ����� easy ������ easy����
+而且还是最 easy 的那种 easy……
 
 ## 2021.2.23(GrumpyBookstoreOwner)
 
-����Ŀ��ү���±��ˡ���
+这题目给爷整懵逼了……
 
-����һ�£�
+分析一下：
 
-��ʹ�ñ������������ܵĻ�������˿͵�������ȷ���Ҳ���ģ����Ҫʹ�ñ������ܵõ���������˿���ʵ���Ǳ����� X ������Ҫʹ�þ����ܶ��ԭ��������Ĺ˿ͱ�����⡣
+不使用憋气（？）技能的话，满意顾客的总数是确定且不变的，因此要使用憋气技能得到最多的满意顾客其实就是憋气的 X 分钟内要使得尽可能多的原本不满意的顾客变得满意。
 
-��������ֵ����ֵ������ԭ������Ĺ˿ͼ�Ϊ���մ𰸡�
+求到这个数字的最大值，加上原本满意的顾客即为最终答案。
 
-û�����һ������Һ� ??��
+没看题解一遍过，我好 ??！
 
 ## 2021.2.24(FlippinganImage)
 
 ```java
-//��ӡ��ά����ĵ�ַ
+//打印二维数组的地址
 System.out.println(arr2.toString());
 
-//��ӡ��ά������е�ַ���е�ַ
+//打印二维数组的行地址、列地址
         System.out.println(Arrays.toString(arr2));
 
-//��ӡ��ά���������
+//打印二维数组的内容
         System.out.println(Arrays.deepToString(arr2));
 ```
 
 ## 2021.2.25(TransposeMatrix)
 
-�����ôһֱ������ easy������Ȼ��Ҳ���Ƕ� M
+最近怎么一直是这种 easy……虽然我也不是抖 M
 
 ## 2021.2.26(NumberofValidWordsforEachPuzzle)
 
-�ƣ��Ҵ��ˣ�����������
+淦，我错了，别这样啊。
 
-ͻȻ��һ�� hard���ǲ��ǹ����˰���
+突然就一道 hard，是不是过分了啊。
 
-��д�ˣ��ơ���
+忘写了，淦……
 
 ## 2021.3.1(RangeSumQuery_Immutable)
 
-ǰ׺�� orz����
+前缀和 orz……
 
 ## 2021.3.2(RangeSumQuery2D_Immutable)
 
-��άǰ׺��
+二维前缀和
 
 ## 2021.3.3(CountingBits)
 
-�üһ���ֱ������ dp �����ϡ���
+好家伙，题解直接三个 dp 怼脸上……
 
-��ȡ����һ�ֺðɡ�
+争取理解一种好吧。
 
-�ؼ��㣺
+关键点：
 
-����λ����ļ��ɣ�������һ���̶������������ٶȡ���λ�����㣨&����һ�������ǣ������������� xx���� x=x & (x-1)�������㽫 x �Ķ����Ʊ�ʾ�����һ�� 1 ��� 0����ˣ��� x �ظ��ò�����ֱ�� x ��� 0�������������Ϊ
-x �ġ�һ����������
+利用位运算的技巧，可以在一定程度上提升计算速度。按位与运算（&）的一个性质是：对于任意整数 xx，令 x=x & (x-1)，该运算将 x 的二进制表示的最后一个 1 变成 0。因此，对 x 重复该操作，直到 x 变成 0，则操作次数即为
+x 的「一比特数」。
 
-���������Ⲣ��������Ĺؼ���Ļ���ʵ���á���
+能理解题意并懂得上面的关键点的话其实还好……
 
 ## 2021.3.4(RussianDollEnvelopes)
 
-��˫�����������Զ�������
+又双叒叕碰到了自定义排序，
 
 ## 2021.3.8(PalindromePartitioningII)
 
-���ǰɣ�����û����һ��������һ�� Hard��������°���
+不是吧，三天没碰，一回来就是一道 Hard？不讲武德啊？
 
-��̬�滮�ж��Ƿ���Ĵ���
+动态规划判断是否回文串：
 
-> �� $f(i,j)$ ��ʾ s[i..j]�Ƿ�Ϊ���Ĵ�����ô�ɵ�״̬ת�Ʒ���
+> 设 $f(i,j)$ 表示 s[i..j]是否为回文串，那么可得状态转移方程
 >
 > $$f(i,j)=\begin{cases}True&i\ge j\\f(i+1,j-1)\wedge(s[i]=s[j])&otherwise\end{cases}$$
 >
-> ���� ^ ��ʾ�����㡣
+> 其中 ^ 表示与运算。
 
-����ʹ�� $g(i,j)$ �洢����ֵ����ʾ $s[i..j]$ �Ƿ�Ϊ���Ĵ���
+首先使用 $g(i,j)$ 存储布尔值，表示 $s[i..j]$ 是否为回文串。
 
-Ȼ��� 0 ��ʼ������ n���ֱ��� $f[i]$ ��ʾ $s[0..i]$ ����С�ָ������
+然后从 0 开始遍历到 n，分别用 $f[i]$ 表示 $s[0..i]$ 的最小分割次数。
 
-$g(0,i)=True$ ��ʱ��$f[i]=0$ ����Ҫ�ָ
+$g(0,i)=True$ 的时候，$f[i]=0$ 不需要分割。
 
-���� j �� 0 һֱ������ i���ҵ� $s[j+1..i]$ Ϊ���Ĵ���$f[i]$ ȡ $f[j]+1$ ����Сֵ��
+否则 j 从 0 一直遍历到 i，找到 $s[j+1..i]$ 为回文串，$f[i]$ 取 $f[j]+1$ 的最小值。
 
 ## 2021.3.15(SpiralMatrix)
 
@@ -693,161 +695,161 @@ $g(0,i)=True$ ��ʱ��$f[i]=0$ ����Ҫ�ָ
 
 ## 2021.3.17(DistinctSubsequences)
 
-Hard ���黹���е���ĵġ���
+Hard 动归还是有点恶心的……
 
-1. �洢��̬�滮��������
+1. 存储动态规划计算结果：
 
-   ������Ϊ$dp[i][j]$����ʾ s ��ǰ j ���ַ������������г��� t ��ǰ i ���ַ����ĸ�����
+   本题中为$dp[i][j]$，表示 s 的前 j 个字符串的子序列中出现 t 的前 i 个字符串的个数。
 
-2. �߽�������
+2. 边界条件：
 
-   $dp[0][j]$��s ��ǰ j ���ַ������������г��ֿ��ַ����ĸ�������֪Ϊ 1���������ַ�ɾ����
+   $dp[0][j]$：s 的前 j 个字符串的子序列中出现空字符串的个数，易知为 1（将所有字符删除）
 
-   $dp[i][0]$�����ַ������������г��ֵķǿ��ַ����ĸ�������֪Ϊ 0
+   $dp[i][0]$：空字符串的子序列中出现的非空字符串的个数，易知为 0
 
-3. ״̬ת�Ʒ��̣�
+3. 状态转移方程：
 
-   ����ĵĶ������ˡ�
+   最恶心的东西来了。
 
    ![Snipaste_2021-03-17_08-46-00](./picture/Snipaste_2021-03-17_08-46-00.png)
 
-   $dp[i-1][j-1]$������ͼ��֪����$s[j]==t[i]$������$dp[i-1][j-1]$�������������ж�����$dp[i][j]$����һ����Ӧ��������
+   $dp[i-1][j-1]$：由上图可知，若$s[j]==t[i]$，任意$dp[i-1][j-1]$计数过的子序列都会在$dp[i][j]$产生一个对应的子序列
 
    ![Snipaste_2021-03-17_09-15-20](./picture/Snipaste_2021-03-17_09-15-20.png)
 
-   $dp[i-1][j]$������ͼ
+   $dp[i-1][j]$：如上图
 
    ![Snipaste_2021-03-17_09-16-20](./picture/Snipaste_2021-03-17_09-16-20.png)
 
-   $dp[i][j-1]$������ͼ����֪�������������������Ҳ������$dp[i][j]$
+   $dp[i][j-1]$：如上图，可知该情况计数过的子序列也必属于$dp[i][j]$
 
-   $dp[i][j]$��
+   $dp[i][j]$略
 
-   �������Ϸ����ɵõ����������
+   根据以上分析可得到以下情况：
 
-   ���� s �� t �����һ���ַ��Ƿ���루�������Ϊ����������ʱ�� t ���һλ��Ӧ��
+   考虑 s 和 t 的最后一个字符是否对齐（相等且作为计算子序列时与 t 最后一位对应）
 
-   - ���룺��ʱ$dp[i][j]=dp[i-1][j-1]$
-   - �����룺��ʱ$dp[i][j]=dp[i][j-1]$
+   - 对齐：此时$dp[i][j]=dp[i-1][j-1]$
+   - 不对齐：此时$dp[i][j]=dp[i][j-1]$
 
-   ��$s[j]==t[i]$�����Ƕ��롢��������������������������һ�������
+   当$s[j]==t[i]$，考虑对齐、不对齐两种情况，否则仅不对齐一种情况。
 
-   ��˿ɵ�״̬ת�Ʒ������£�
+   因此可得状态转移方程如下：
 
    $$dp[i][j]=\left \{ \begin{array}{c} dp[i][j-1]+dp[i-1][j-1]&s[j]==t[i]\\dp[i][j-1]&else \end{array} \right.$$
 
-   �ߺ���һ����ˣ���Ȼ˼·��ȫ�ǿ�������ͨ�ġ�
+   芜湖，一遍过了，虽然思路完全是看题解才想通的。
 
 ## 2021.3.18(ReverseLinkedListII)
 
-����ܼ򵥣����Ǳ�����߼�˳��Ҫ��˳�����ѡ���
+代码很简单，但是背后的逻辑顺序要理顺很困难……
 
-�߼���˳�˹ؼ�����ֻ��һЩ�����Ľ������ѡ���
+逻辑理顺了关键代码只是一些变量的交换而已……
 
-����Ҫ��˳̫�����˰ɣ�������
+但是要理顺太困难了吧！！！！
 
 ## 2021.3.19(DesignParkingSystem)
 
-��ͻȻ easy��
+？突然 easy。
 
 ## 2021.4.6(RemoveDuplicatesfromSortedArrayII)
 
-�þ�û����д LeetCode �� orz����
+好久没正经写 LeetCode 了 orz……
 
-���� IDEA��VSCode ��λ��һ���½�
+改用 IDEA，VSCode 地位进一步下降
 
 ## 2021.4.7(SearchinRotatedSortedArrayII)
 
-> ���������������ʹ�ö��ַ�����Ԫ�ء�
-> �����ڱ�������������ǽ���**��ת**��ֲ������������ֲ���ͬ�����á�
+> 对于有序数组可以使用二分法查找元素。
+> 但对于本身不是有序而是进行**旋转**后局部有序的数组二分查找同样适用。
 
-nums ��Ԥ��δ֪��ĳ���±� k��0 <= k < nums.length���Ͻ����� ��ת��ʹ�����Ϊ [nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]���±� �� 0 ��ʼ �����������磬 [0,1,2,4,5,6,7] ���±� 3 ������ת����ܱ�Ϊ ?[4,5,6,7,0,1,2]
+nums 在预先未知的某个下标 k（0 <= k < nums.length）上进行了 旋转，使数组变为 [nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]（下标 从 0 开始 计数）。例如， [0,1,2,4,5,6,7] 在下标 3 处经旋转后可能变为 ?[4,5,6,7,0,1,2]
 
-> ���Է��֣���������м�ֿ���ʱ��һ����һ���ֵ�����������ġ�
-> ���ÿ�ν��ж��ֺ�ɸ�������Ĳ��־����������ҷ�Χ��
+> 可以发现，将数组从中间分开的时候，一定有一部分的数组是有序的。
+> 因此每次进行二分后可根据有序的部分决定后续查找范围。
 
-��Ȼ��ȫ�Լ�д�ͻᷴ���ύ��������������
+果然完全自己写就会反复提交反复出错，哭了
 
 ## 2021.4.19(RemoveElement)
 
-������æ���˶�û��ˢ leetCode����
+这半个月忙死了都没空刷 leetCode……
 
-ϣ�� easy �ܹ��Ѻ�һ�㡣
+希望 easy 能够友好一点。
 
-ȷʵͦ�Ѻõġ�����Ȼ����д������ orz��
+确实挺友好的。（虽然还是写复杂了 orz）
 
 ## 2021.4.23(LargestDivisibleSubset)
 
-һ���ѶȻ��е� medium����������Ҿ����Ҷ��ˡ�
+一道难度还行的 medium，看了题解我觉得我懂了。
 
-���Ȱ��������У�Ȼ�����α�����
-dp[i]��ʾ�� i ����Ϊ���ֵʱ�ܹ���ɵ���������Ӽ�������
-�� nums[i]%nums[j]==0���� dp[i]=dp[j]+1
+首先按升序排列，然后依次遍历。
+dp[i]表示第 i 个数为最大值时能够组成的最大整数子集个数。
+若 nums[i]%nums[j]==0，则 dp[i]=dp[j]+1
 
-���� dp �󣬰�����������飬ֱ�������� dp �������ֵ����ʱ��
-���ֵ���������ҵ���һ��������������������
+求完 dp 后，按倒序遍历数组，直至遍历至 dp 数组最大值，此时：
+保持倒序遍历，找到第一个满足以下条件的数：
 
 > nums[i]%nums[j]==0
 > dp[i]==dp[j]+1
 
-���������������б��С�
-�ظ��ò��裬���ռ�������Ҫ������顣
+将该数添加入结果列表中。
+重复该步骤，最终即得满足要求的数组。
 
 ## 2021.4.25(IncreasingOrderSearchTree)
 
-easy ����ȭ������
-�ðɲ��ᣬ����⡣
-����ʵҲ���ǲ��ᣬ�������֮����һ�����ͺã��뿴����û��ɧ�ģ�
+easy 我重拳出击！
+好吧不会，看题解。
+（其实也不是不会，中序遍历之后复制一棵树就好，想看下有没有骚的）
 
 ## 2021.4.26(CapacityToShipPackagesWithinDDays)
 
-medium ��ΨΨŵŵ��
+medium 我唯唯诺诺！
 
-���ֲ��ҡ���
+二分查找……
 
-һ�����ŷҮ~
+一遍过，欧耶~
 
 ## 2021.4.28(SumofSquareNumbers)
 
-�Ƚϼ�
+比较简单
 
 ## 2021.4.29(FrogJump)
 
-���ַ�������̫���ˣ�����һ�ְɡ�
+两种方法都看太累了，理解一种吧。
 
-��̬�滮��
+动态规划：
 
-��$dp[i][k]$��ʾ�����ܷ񵽴����������ʯ�ӱ�š�Ϊ i���ҡ���һ����Ծ���롱Ϊ k ��״̬��
+令$dp[i][k]$表示青蛙能否到达“现在所处的石子编号”为 i，且“上一次跳跃距离”为 k 的状态。
 
-��ˣ����ڳ���Ϊ n �� stones��ֻҪ�� k ʹ�� dp[n-1][k]=true �������ܹ��������
+因此，对于长度为 n 的 stones，只要在 k 使得 dp[n-1][k]=true 即表明能够到达对面
 
-�ɵ�״̬ת�Ʒ��̣�
+可得状态转移方程：
 
 $$
 dp[i][k]=dp[j][k-1]\lor dp[j][k]\lor dp[j][k+1]
 $$
 
-j ��ʾ����һ������ʯ�ӱ�š�������$stones[i]-stones[j]=k$
+j 表示“上一次所在石子编号”，满足$stones[i]-stones[j]=k$
 
-���ڵ� i ��ʯ�ӣ�����ö�����е� j����$k=stones[i]-stones[j]$
-��$dp[j][k-1]\lor dp[j][k]\lor dp[j][k+1]==true$����
+对于第 i 个石子，我们枚举所有的 j，则$k=stones[i]-stones[j]$
+若$dp[j][k-1]\lor dp[j][k]\lor dp[j][k+1]==true$即可
 
-Ϊ�Ż��������ʣ��Ƴ������������ۣ�
+为优化运行速率，推出以下两个结论：
 
-1. ����������ʯ�ӱ�š�Ϊ i ʱ������һ����Ծ���롱k �ض�����$k\le i$
+1. “现在所在石子编号”为 i 时，“上一次跳跃距离”k 必定满足$k\le i$
 
-   - ����λ�ڵ� 0 ��ʯ���ϣ���һ����Ծ����Ϊ 0��֮��ÿ����Ծ����ʯ�ӱ���������� 1����Ծ������������ 1
-   - ��Ծ m �κ󣬡�����ʯ�ӱ�š�$i\ge m$������һ����Ծ���롱$k\le m$�����$k\le i$
-   - ��˴Ӻ���ǰö�١���һ������ʯ�ӱ�š�ʱ��������һ����Ծ���롱k ������ j+1 ʱ������ֹͣ��Ծ
+   - 青蛙位于第 0 个石子上，上一次跳跃距离为 0，之后每次跳跃所在石子编号至少增加 1，跳跃距离至多增加 1
+   - 跳跃 m 次后，“所在石子编号”$i\ge m$，“上一次跳跃距离”$k\le m$，因此$k\le i$
+   - 因此从后向前枚举“上一次所在石子编号”时，当“上一次跳跃距离”k 超过了 j+1 时，即可停止跳跃
 
-2. ���� i ��ʯ����� i-1 ��ʯ�Ӿ��볬�� i ʱ�����ܱض��޷������յ�
-   - ��˿���ǰ����Ƿ�������ʯ�Ӳ�����Ҫ���������ǰ���� false
+2. 当第 i 个石子与第 i-1 个石子距离超过 i 时，青蛙必定无法到达终点
+   - 因此可提前检查是否有相邻石子不满足要求，如果有提前返回 false
 
 ## 2021.4.30(SingleNumberII)
 
-�������һ�죬����
+四月最后一天，噶油
 
-������˼��Ŀ̫ɧ�ˣ��ҷ���
+不好意思题目太骚了，我放弃
 
 ## 2021.5.6(DecodeXORedArray)
 
@@ -860,22 +862,22 @@ $$
 
 ## 2021.5.18(CountTripletsThatCanFormTwoArraysofEqualXOR)
 
-������������ѧ��
+归根结底又是数学题
 
-����ѧ��ʽ̫���ˣ�ֱ�Ӹ����Ӱ�
+敲数学公式太累了，直接给链接吧
 
-[�γ������������������Ԫ����Ŀ](https://leetcode-cn.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/solution/xing-cheng-liang-ge-yi-huo-xiang-deng-sh-jud0/)
+[形成两个异或相等数组的三元组数目](https://leetcode-cn.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/solution/xing-cheng-liang-ge-yi-huo-xiang-deng-sh-jud0/)
 
 ## 2021.5.24(StrangePrinter)
 
-��̬�滮��
+动态规划：
 
-��$f[i][j]$��ʾ��ӡ������$[i,j]$�����ٲ�����
+令$f[i][j]$表示打印完区间$[i,j]$的最少操作数
 
-1. ��$s[i]=s[j]$ʱ��$f[i][j]=f[i][j-1]$����Ϊ��ӡ����ַ�ʱ����˳������Ҳ��ַ��������м��ַ����޸Ļ��ڴˣ����漰���Ҳ��ַ���
-2. ��$s[i]\ne s[j]$ʱ����Ҫ�ֱ�������������ֵĴ�ӡ���ֱ��Ϊ$[i,k],[k+1,j]$����ʱ$f[i][j]=\min^{j-1}_{k=i}f[i][k]+f[k+1][j]$��
+1. 当$s[i]=s[j]$时，$f[i][j]=f[i][j-1]$，因为打印左侧字符时即可顺便完成右侧字符，而后中间字符的修改基于此，不涉及最右侧字符。
+2. 当$s[i]\ne s[j]$时，需要分别完成左右两部分的打印，分别记为$[i,k],[k+1,j]$，此时$f[i][j]=\min^{j-1}_{k=i}f[i][k]+f[k+1][j]$。
 
-���״̬ת�Ʒ������£�
+因此状态转移方程如下：
 
 $$
 f[i][j]=\left \{ \begin{array}{lr}
@@ -884,6 +886,51 @@ f[i][j-1],&s[i]=s[j]\\
  \end{array} \right .
 $$
 
-�߽�����$f[i][i]=1$
+边界条件$f[i][i]=1$
 
-�����������ѵĶ����Ǵ���ʵ�֣�����״̬ת�Ʒ��̺ͱ߽���������ȷ����
+动归问题最难的都不是代码实现，而是状态转移方程和边界条件的明确……
+
+## 2021.6.7(TargetSum)
+
+动态规划 again。
+
+设数组元素和为$sum$，添加-号的元素和为$neg$，则其余元素和为$sum-neg$
+则有：
+
+$$
+target=sum-neg-neg=sum-2\cdot neg\\
+\ \\
+neg=\frac{sum-target}{2}
+$$
+
+上式成立前提：$sum-target$为非负偶数，不符合可直接返回 0
+
+问题转化为：在数组$nums$中选取若干元素，使得这些元素之和等于$neg$
+
+定义二维数组$dp$，其中$dp[i][j]$表示在数组$nums$的前$i$个数中选取元素，使得这些元素之和等于$j$的方案数。最终答案即为$dp[n][neg]$
+
+边界条件：
+
+$$
+dp[0][j]=\left \{ \begin{array}{lr}
+1,&j=0 \\
+0,&j\ge1
+\end{array} \right .
+$$
+
+状态转移方程：
+对于数组$nums$中第$i$个元素$num$，遍历$0\le j\le neg$，计算$dp[i][j]$的值：
+
+- 如果$j<num$，则不能选$num$，此时有$dp[i][j]=dp[i-1][j]$
+- 如果$j\ge num$，则如果不选$num$，方案数是$dp[i-1][j]$，如果选$num$，方案数是$dp[i-1][j-num]$，此时有$dp[i][j]=dp[i-1][j]+dp[i-1][j-num]$
+
+优化：
+因为每一行的计算仅和上一行有关，所以可以是用滚动数组的方式，去掉$dp$的第一个维度，从而优化空间
+
+## 2021.6.24
+
+又是一万年没写题目了……
+
+一方面是懒，一方面是忙。
+
+按图索骥写下来还是不难，虽然是个 hard（并且最后时间空间都只有 10%……）
