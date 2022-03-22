@@ -3,6 +3,7 @@
 - [2022.3](#20223)
   - [3.19 Construct String from Binary Tree](#319-construct-string-from-binary-tree)
   - [3.20 The Time When the Network Becomes Idle](#320-the-time-when-the-network-becomes-idle)
+  - [3.22 Remove Colored Pieces if Both Neighbors are the Same Color](#322-remove-colored-pieces-if-both-neighbors-are-the-same-color)
 
 ## 3.19 Construct String from Binary Tree
 
@@ -59,3 +60,9 @@
 果然实际写代码是学习语言的最快方式，今天了解到了 go 的“数组”和“切片”的区别。
 
 果然，最怕的不是写不出来，也不是写出来了一个用例都跑不过，而是写出来了跑过了一半用例，然后一个巨长无比的用例出错了……你这让我怎么 Debug 啊！
+
+## 3.22 Remove Colored Pieces if Both Neighbors are the Same Color
+
+昨天的题比较简单 ~~(大概)~~，就没什么好记的。
+
+今天的看题面相当复杂，还以为涉及博弈，要考虑每一步的最优解。但其实当原始数据给定的时候结果就已经定了……能赢的人想输都不行。
