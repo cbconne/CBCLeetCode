@@ -4,6 +4,7 @@
   - [3.19 Construct String from Binary Tree](#319-construct-string-from-binary-tree)
   - [3.20 The Time When the Network Becomes Idle](#320-the-time-when-the-network-becomes-idle)
   - [3.22 Remove Colored Pieces if Both Neighbors are the Same Color](#322-remove-colored-pieces-if-both-neighbors-are-the-same-color)
+  - [3.23 K-th Smallest in Lexicographical Order](#323-k-th-smallest-in-lexicographical-order)
 
 ## 3.19 Construct String from Binary Tree
 
@@ -66,3 +67,21 @@
 昨天的题比较简单 ~~(大概)~~，就没什么好记的。
 
 今天的看题面相当复杂，还以为涉及博弈，要考虑每一步的最优解。但其实当原始数据给定的时候结果就已经定了……能赢的人想输都不行。
+
+## 3.23 K-th Smallest in Lexicographical Order
+
+坏了，今天的是道 hard，而且看评论还是道挺难的 hard……
+
+争取不 CV 编程……
+
+字典树的思想，首先是根据 n 得到这棵字典树（本体中不能也不用实际把这棵树存下来），然后遍历该字典树，第 k 个即为结果。
+
+为了不真的把整棵树存下来，需要实现以下方法：在 n 的条件下，判断当前前缀下树有多少个节点。
+
+该方法的基本思路：逐层累加，第n层最左侧为 $l_n$，最右侧为 $r_n$，则该层一共 $r_n-l_n+1$ 个节点。考虑上限，则需要考虑 $r_n$ 与上限大小。$l_n=l_{n-1}\times10,r_n=r_{n-1}\times10+9$
+
+在该方法实现的前提下，得到结果的流程为：
+
+1. 前缀为 1；
+2. 判断 k 是否在当前前缀下，若是，则进入下一层字典树，遍历数+1，否则，跳到下一个前缀，遍历数加当前前缀下节点数；
+3. 循环以上过程，直至遍历数=k
