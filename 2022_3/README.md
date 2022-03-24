@@ -5,6 +5,7 @@
   - [3.20 The Time When the Network Becomes Idle](#320-the-time-when-the-network-becomes-idle)
   - [3.22 Remove Colored Pieces if Both Neighbors are the Same Color](#322-remove-colored-pieces-if-both-neighbors-are-the-same-color)
   - [3.23 K-th Smallest in Lexicographical Order](#323-k-th-smallest-in-lexicographical-order)
+  - [3.24 Image Smoother](#324-image-smoother)
 
 ## 3.19 Construct String from Binary Tree
 
@@ -78,10 +79,18 @@
 
 为了不真的把整棵树存下来，需要实现以下方法：在 n 的条件下，判断当前前缀下树有多少个节点。
 
-该方法的基本思路：逐层累加，第n层最左侧为 $l_n$，最右侧为 $r_n$，则该层一共 $r_n-l_n+1$ 个节点。考虑上限，则需要考虑 $r_n$ 与上限大小。$l_n=l_{n-1}\times10,r_n=r_{n-1}\times10+9$
+该方法的基本思路：逐层累加，第 n 层最左侧为 $l_n$，最右侧为 $r_n$，则该层一共 $r_n-l_n+1$ 个节点。考虑上限，则需要考虑 $r_n$ 与上限大小。$l_n=l_{n-1}\times10,r_n=r_{n-1}\times10+9$
 
 在该方法实现的前提下，得到结果的流程为：
 
 1. 前缀为 1；
 2. 判断 k 是否在当前前缀下，若是，则进入下一层字典树，遍历数+1，否则，跳到下一个前缀，遍历数加当前前缀下节点数；
 3. 循环以上过程，直至遍历数=k
+
+## 3.24 Image Smoother
+
+难得的 easy！争取自己写出来！
+
+漂亮！自己写的而且一边过了！
+
+不过说实话，Copilot 居功至伟……计算平均值的函数基本是它写的……
