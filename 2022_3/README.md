@@ -6,6 +6,7 @@
   - [3.22 Remove Colored Pieces if Both Neighbors are the Same Color](#322-remove-colored-pieces-if-both-neighbors-are-the-same-color)
   - [3.23 K-th Smallest in Lexicographical Order](#323-k-th-smallest-in-lexicographical-order)
   - [3.24 Image Smoother](#324-image-smoother)
+  - [3.25 Factorial Trailing Zeroes](#325-factorial-trailing-zeroes)
 
 ## 3.19 Construct String from Binary Tree
 
@@ -94,3 +95,13 @@
 漂亮！自己写的而且一边过了！
 
 不过说实话，Copilot 居功至伟……计算平均值的函数基本是它写的……
+
+## 3.25 Factorial Trailing Zeroes
+
+看上去像道逻辑很简单但是需要一定数学分析所以才划到 medium 的 medium 题，而且以前见过类似的题。我觉得可以尝试自己分析做一下。
+
+阶乘结果中有多少个 0，其实本质是在问这个阶乘乘了多少个‘10’。而阶乘中只有自然数，因此能得到‘10’的只有‘5×2’，又显而易见地可知，因数中包含 2 的自然数比包含 5 的多得多，因此仅考虑 5 的倍数即可。
+
+思路基本就是遍历每个小于 n 的 5 的倍数，分别计算其质因数中有几个 5 ，总和即为结果。
+
+思路完全正确，但是没有想出来数学层面进一步优化的方法 2

@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	img := [][]int{{100, 200, 100}, {200, 50, 200}, {100, 200, 100}}
-	fmt.Printf("study2022_3.ImageSmoother(img): %v\n", study2022_3.ImageSmoother(img))
+	fmt.Printf("study2022_3.TrailingZeroes(3): %v\n",
+		study2022_3.TrailingZeroes(25))
 }
