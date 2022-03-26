@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	fmt.Printf("study2022_3.TrailingZeroes(3): %v\n",
-		study2022_3.TrailingZeroes(25))
+	ops := []string{"5"}
+	fmt.Printf("study2022_3.CalPoints(ops): %v\n", study2022_3.CalPoints(ops))
 }
