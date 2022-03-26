@@ -7,6 +7,7 @@
   - [3.23 K-th Smallest in Lexicographical Order](#323-k-th-smallest-in-lexicographical-order)
   - [3.24 Image Smoother](#324-image-smoother)
   - [3.25 Factorial Trailing Zeroes](#325-factorial-trailing-zeroes)
+  - [3.26 Baseball Game](#326-baseball-game)
 
 ## 3.19 Construct String from Binary Tree
 
@@ -105,3 +106,11 @@
 思路基本就是遍历每个小于 n 的 5 的倍数，分别计算其质因数中有几个 5 ，总和即为结果。
 
 思路完全正确，但是没有想出来数学层面进一步优化的方法 2
+
+## 3.26 Baseball Game
+
+请允许我吐槽一下这和棒球比赛有个屁关系啊……
+
+看上去非常简单的一道 easy，不知道是不是题解有什么骚操作？先自己写吧。
+
+确实挺简单的，一开始理解有些问题。
