@@ -7,6 +7,8 @@ import (
 )
 
 func main() {
-	ops := []string{"5"}
-	fmt.Printf("study2022_3.CalPoints(ops): %v\n", study2022_3.CalPoints(ops))
+	rolls := []int{1}
+	mean := 3
+	n := 1
+	fmt.Printf("study2022_3.MissingRolls(rolls, mean, n): %v\n", study2022_3.MissingRolls(rolls, mean, n))
 }

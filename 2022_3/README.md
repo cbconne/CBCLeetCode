@@ -8,6 +8,7 @@
   - [3.24 Image Smoother](#324-image-smoother)
   - [3.25 Factorial Trailing Zeroes](#325-factorial-trailing-zeroes)
   - [3.26 Baseball Game](#326-baseball-game)
+  - [3.27 Find Missing Observations](#327-find-missing-observations)
 
 ## 3.19 Construct String from Binary Tree
 
@@ -114,3 +115,16 @@
 看上去非常简单的一道 easy，不知道是不是题解有什么骚操作？先自己写吧。
 
 确实挺简单的，一开始理解有些问题。
+
+## 3.27 Find Missing Observations
+
+是道 medium 就看了下官解，看上去没有什么骚操作，可以尝试自己分析然后写一下。
+
+$$
+所有数字总和: Sum=(n+length(rolls))\cdot mean\\
+缺失数字总和: Sum_n=Sum-Sum_m\\
+当: Sum_n>6n||Sum_n<0\ 时，不存在答案\\
+否则: 结果数组为\ \{\underbrace{\lfloor \frac{Sum_n}{n}\rfloor,\dots}_{n-Sum_n+\lfloor \frac{Sum_n}{n}\rfloor\cdot n},\underbrace{\lceil \frac{Sum_n}{n}\rceil,\dots }_{Sum_n-\lfloor \frac{Sum_n}{n}\rfloor\cdot n}\}
+$$
+
+ok，一遍过（虽然实际是两次但是其实不是什么大 bug 改了个变量就过了所以就算一遍吧）
