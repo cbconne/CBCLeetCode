@@ -9,6 +9,7 @@
   - [3.25 Factorial Trailing Zeroes](#325-factorial-trailing-zeroes)
   - [3.26 Baseball Game](#326-baseball-game)
   - [3.27 Find Missing Observations](#327-find-missing-observations)
+  - [3.28 Binary Number with Alternating Bits](#328-binary-number-with-alternating-bits)
 
 ## 3.19 Construct String from Binary Tree
 
@@ -128,3 +129,11 @@ $$
 $$
 
 ok，一遍过（虽然实际是两次但是其实不是什么大 bug 改了个变量就过了所以就算一遍吧）
+
+## 3.28 Binary Number with Alternating Bits
+
+easy 好耶
+
+但是看上去很像那种会有骚操作的题目……
+
+好吧，果然，第一种方法很容易就想到了，但是位运算还是没想到 ~~(But who care)~~
