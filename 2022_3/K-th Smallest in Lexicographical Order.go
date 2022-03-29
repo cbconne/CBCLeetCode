@@ -21,15 +21,23 @@ func getCountinPrifix(prifix int, n int) int {
 	l := prifix * 10
 	r := prifix*10 + 9
 	for l <= n {
-		cnt += min(r, n) - l + 1
+		cnt += Min(r, n) - l + 1
 		l *= 10
 		r = r*10 + 9
 	}
 	return cnt
 }
 
-func min(a int, b int) int {
+func Min(a int, b int) int {
 	if a <= b {
+		return a
+	} else {
+		return b
+	}
+}
+
+func Max(a int, b int) int {
+	if a >= b {
 		return a
 	} else {
 		return b

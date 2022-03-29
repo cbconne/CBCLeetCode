@@ -10,6 +10,7 @@
   - [3.26 Baseball Game](#326-baseball-game)
   - [3.27 Find Missing Observations](#327-find-missing-observations)
   - [3.28 Binary Number with Alternating Bits](#328-binary-number-with-alternating-bits)
+  - [3.29 Maximize the Confusion of an Exam](#329-maximize-the-confusion-of-an-exam)
 
 ## 3.19 Construct String from Binary Tree
 
@@ -137,3 +138,11 @@ easy 好耶
 但是看上去很像那种会有骚操作的题目……
 
 好吧，果然，第一种方法很容易就想到了，但是位运算还是没想到 ~~(But who care)~~
+
+## 3.29 Maximize the Confusion of an Exam
+
+看了下官解标题，说是用滑窗，大概有思路了，尝试自己写
+
+边写脑袋边晕，最后加了一大坨 if 判断跳出才写出来
+
+不过虽然代码丑了点但是结果还算可以 96%/67%

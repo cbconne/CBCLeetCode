@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
-	n := 10
-	fmt.Printf("study2022_3.HasAlternatingBits(n): %v\n", study2022_3.HasAlternatingBits(n))
+	answerKey := "TTFF"
+	k := 1
+	fmt.Printf("study2022_3.MaxConsecutiveAnswers(answerKey, k): %v\n", study2022_3.MaxConsecutiveAnswers(answerKey, k))
 }
