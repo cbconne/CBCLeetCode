@@ -7,7 +7,8 @@ import (
 )
 
 func main() {
-	answerKey := "TTFF"
 	k := 1
-	fmt.Printf("study2022_3.MaxConsecutiveAnswers(answerKey, k): %v\n", study2022_3.MaxConsecutiveAnswers(answerKey, k))
+	arrival := []int{1}
+	load := []int{1}
+	fmt.Printf("study2022_3.BusiestServers(k, arrival, load): %v\n", study2022_3.BusiestServers(k, arrival, load))
 }
