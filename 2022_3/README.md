@@ -11,6 +11,7 @@
   - [3.27 Find Missing Observations](#327-find-missing-observations)
   - [3.28 Binary Number with Alternating Bits](#328-binary-number-with-alternating-bits)
   - [3.29 Maximize the Confusion of an Exam](#329-maximize-the-confusion-of-an-exam)
+  - [3.30 Find Servers That Handled Most Number of Requests](#330-find-servers-that-handled-most-number-of-requests)
 
 ## 3.19 Construct String from Binary Tree
 
@@ -146,3 +147,13 @@ easy 好耶
 边写脑袋边晕，最后加了一大坨 if 判断跳出才写出来
 
 不过虽然代码丑了点但是结果还算可以 96%/67%
+
+## 3.30 Find Servers That Handled Most Number of Requests
+
+看到 hard 我直接官解启动
+
+看完感觉没有什么很难的算法，单纯就是逻辑理顺(?)
+
+理顺了，所有例子都跑通了，一提交，超时
+
+CV 告辞
