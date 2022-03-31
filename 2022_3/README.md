@@ -12,6 +12,7 @@
   - [3.28 Binary Number with Alternating Bits](#328-binary-number-with-alternating-bits)
   - [3.29 Maximize the Confusion of an Exam](#329-maximize-the-confusion-of-an-exam)
   - [3.30 Find Servers That Handled Most Number of Requests](#330-find-servers-that-handled-most-number-of-requests)
+  - [3.31 Self Dividing Numbers](#331-self-dividing-numbers)
 
 ## 3.19 Construct String from Binary Tree
 
@@ -157,3 +158,13 @@ easy 好耶
 理顺了，所有例子都跑通了，一提交，超时
 
 CV 告辞
+
+## 3.31 Self Dividing Numbers
+
+3 月最后一天～要开新文件夹了
+
+一道 easy，虽然总感觉有什么骚操作但是先自己写吧
+
+结果并没有什么骚操作……
+
+三月打卡愉快地结束啦！～～～
