@@ -3,11 +3,10 @@ package main
 import (
 	"fmt"
 
-	study2022_3 "./2022_3"
+	study2022_4 "./2022_4"
 )
 
 func main() {
-	left := 47
-	right := 85
-	fmt.Printf("study2022_3.SelfDividingNumbers(left, right): %v\n", study2022_3.SelfDividingNumbers(left, right))
+	arr := []int{4, -2, 2, -4}
+	fmt.Printf("study2022_4.CanReorderDoubled(arr): %v\n", study2022_4.CanReorderDoubled(arr))
 }
