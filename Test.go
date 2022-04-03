@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
-	arr := []int{4, -2, 2, -4}
-	fmt.Printf("study2022_4.CanReorderDoubled(arr): %v\n", study2022_4.CanReorderDoubled(arr))
+	letters := []byte{'c', 'f', 'j'}
+	target := byte('d')
+	fmt.Printf("study2022_4.NextGreatestLetter(letters, target): %c\n", study2022_4.NextGreatestLetter(letters, target))
 }

@@ -3,6 +3,7 @@
 - [2022.4](#20224)
   - [4.1 Array of Doubled Pairs](#41-array-of-doubled-pairs)
   - [4.2 Strong Password Checker](#42-strong-password-checker)
+  - [4.3 Find Smallest Letter Greater Than Target](#43-find-smallest-letter-greater-than-target)
 
 ## 4.1 Array of Doubled Pairs
 
@@ -17,3 +18,9 @@
 一道非常变态的 hard，题解就长得离谱……
 
 我选择 CV
+
+## 4.3 Find Smallest Letter Greater Than Target
+
+是为了平衡一下吗，今天是道 easy
+
+比想象中还简单……甚至没注意到一些题目给出的约束条件就写出来了……
