@@ -5,6 +5,7 @@
   - [4.2 Strong Password Checker](#42-strong-password-checker)
   - [4.3 Find Smallest Letter Greater Than Target](#43-find-smallest-letter-greater-than-target)
   - [4.4 Range Sum Query - Mutable](#44-range-sum-query---mutable)
+  - [4.5 Prime Number of Set Bits in Binary Representation](#45-prime-number-of-set-bits-in-binary-representation)
 
 ## 4.1 Array of Doubled Pairs
 
@@ -29,3 +30,7 @@
 ## 4.4 Range Sum Query - Mutable
 
 太难，懒得写，时间也不够。CV 告辞。
+
+## 4.5 Prime Number of Set Bits in Binary Representation
+
+简单题，假期最后一天没什么状态写……就这样吧。
