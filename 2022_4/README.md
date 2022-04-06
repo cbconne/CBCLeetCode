@@ -6,6 +6,7 @@
   - [4.3 Find Smallest Letter Greater Than Target](#43-find-smallest-letter-greater-than-target)
   - [4.4 Range Sum Query - Mutable](#44-range-sum-query---mutable)
   - [4.5 Prime Number of Set Bits in Binary Representation](#45-prime-number-of-set-bits-in-binary-representation)
+  - [4.6 Minimum Height Trees](#46-minimum-height-trees)
 
 ## 4.1 Array of Doubled Pairs
 
@@ -34,3 +35,9 @@
 ## 4.5 Prime Number of Set Bits in Binary Representation
 
 简单题，假期最后一天没什么状态写……就这样吧。
+
+## 4.6 Minimum Height Trees
+
+时间不够&数学题，CV 吧。
+
+果然开了这个头就刹不住车了。
