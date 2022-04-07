@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	letters := []byte{'c', 'f', 'j'}
-	target := byte('d')
-	fmt.Printf("study2022_4.NextGreatestLetter(letters, target): %c\n", study2022_4.NextGreatestLetter(letters, target))
+	s := "abcde"
+	goal := "abced"
+	fmt.Printf("study2022_4.RotateString(s, goal): %v\n", study2022_4.RotateString(s, goal))
 }
