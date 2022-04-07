@@ -7,6 +7,7 @@
   - [4.4 Range Sum Query - Mutable](#44-range-sum-query---mutable)
   - [4.5 Prime Number of Set Bits in Binary Representation](#45-prime-number-of-set-bits-in-binary-representation)
   - [4.6 Minimum Height Trees](#46-minimum-height-trees)
+  - [4.7 Rotate String](#47-rotate-string)
 
 ## 4.1 Array of Doubled Pairs
 
@@ -41,3 +42,7 @@
 时间不够&数学题，CV 吧。
 
 果然开了这个头就刹不住车了。
+
+## 4.7 Rotate String
+
+挺简单貌似？不知道是不是有坑？
