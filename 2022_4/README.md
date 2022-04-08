@@ -8,6 +8,7 @@
   - [4.5 Prime Number of Set Bits in Binary Representation](#45-prime-number-of-set-bits-in-binary-representation)
   - [4.6 Minimum Height Trees](#46-minimum-height-trees)
   - [4.7 Rotate String](#47-rotate-string)
+  - [4.8 N-ary Tree Level Order Traversal](#48-n-ary-tree-level-order-traversal)
 
 ## 4.1 Array of Doubled Pairs
 
@@ -46,3 +47,7 @@
 ## 4.7 Rotate String
 
 挺简单貌似？不知道是不是有坑？
+
+## 4.8 N-ary Tree Level Order Traversal
+
+对不起！塞尔达太好玩了！
