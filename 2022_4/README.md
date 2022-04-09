@@ -9,6 +9,7 @@
   - [4.6 Minimum Height Trees](#46-minimum-height-trees)
   - [4.7 Rotate String](#47-rotate-string)
   - [4.8 N-ary Tree Level Order Traversal](#48-n-ary-tree-level-order-traversal)
+  - [4.9 Reaching Points](#49-reaching-points)
 
 ## 4.1 Array of Doubled Pairs
 
@@ -51,3 +52,7 @@
 ## 4.8 N-ary Tree Level Order Traversal
 
 对不起！塞尔达太好玩了！
+
+## 4.9 Reaching Points
+
+Hard 直接一手放弃
