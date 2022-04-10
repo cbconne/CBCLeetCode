@@ -10,6 +10,7 @@
   - [4.7 Rotate String](#47-rotate-string)
   - [4.8 N-ary Tree Level Order Traversal](#48-n-ary-tree-level-order-traversal)
   - [4.9 Reaching Points](#49-reaching-points)
+  - [4.10 Unique Morse Code Words](#410-unique-morse-code-words)
 
 ## 4.1 Array of Doubled Pairs
 
@@ -56,3 +57,7 @@
 ## 4.9 Reaching Points
 
 Hard 直接一手放弃
+
+## 4.10 Unique Morse Code Words
+
+Hard 题我唯唯诺诺，Easy 题我直接一飞冲天啊！（其实还是偷偷看了下题解确认没有什么骚操作）

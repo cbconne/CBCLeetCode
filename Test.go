@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	s := "abcde"
-	goal := "abced"
-	fmt.Printf("study2022_4.RotateString(s, goal): %v\n", study2022_4.RotateString(s, goal))
+	words := []string{"a"}
+
+	fmt.Printf("study2022_4.UniqueMorseRepresentations(words): %v\n", study2022_4.UniqueMorseRepresentations(words))
 }
