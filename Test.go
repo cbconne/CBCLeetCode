@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	words := []string{"a"}
+	n := 3
 
-	fmt.Printf("study2022_4.UniqueMorseRepresentations(words): %v\n", study2022_4.UniqueMorseRepresentations(words))
+	fmt.Printf("study2022_4.CountNumbersWithUniqueDigits(n): %v\n", study2022_4.CountNumbersWithUniqueDigits(n))
 }
