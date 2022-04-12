@@ -11,6 +11,7 @@
   - [4.8 N-ary Tree Level Order Traversal](#48-n-ary-tree-level-order-traversal)
   - [4.9 Reaching Points](#49-reaching-points)
   - [4.10 Unique Morse Code Words](#410-unique-morse-code-words)
+  - [4.11 Count Numbers with Unique Digits](#411-count-numbers-with-unique-digits)
 
 ## 4.1 Array of Doubled Pairs
 
@@ -61,3 +62,9 @@ Hard 直接一手放弃
 ## 4.10 Unique Morse Code Words
 
 Hard 题我唯唯诺诺，Easy 题我直接一飞冲天啊！（其实还是偷偷看了下题解确认没有什么骚操作）
+
+## 4.11 Count Numbers with Unique Digits
+
+看上去是一道还可以的 medium 题？勇敢尝试一下
+
+尝试个屁，刚写个函数名直接 copilot 全给我补齐了
