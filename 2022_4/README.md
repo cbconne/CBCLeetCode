@@ -12,6 +12,7 @@
   - [4.9 Reaching Points](#49-reaching-points)
   - [4.10 Unique Morse Code Words](#410-unique-morse-code-words)
   - [4.11 Count Numbers with Unique Digits](#411-count-numbers-with-unique-digits)
+  - [4.12 Number of Lines To Write String](#412-number-of-lines-to-write-string)
 
 ## 4.1 Array of Doubled Pairs
 
@@ -68,3 +69,9 @@ Hard 题我唯唯诺诺，Easy 题我直接一飞冲天啊！（其实还是偷�
 看上去是一道还可以的 medium 题？勇敢尝试一下
 
 尝试个屁，刚写个函数名直接 copilot 全给我补齐了
+
+## 4.12 Number of Lines To Write String
+
+一道 easy，但是一时半会儿没想到解法……
+
+但是 easy 还是 easy 的
