@@ -13,6 +13,7 @@
   - [4.10 Unique Morse Code Words](#410-unique-morse-code-words)
   - [4.11 Count Numbers with Unique Digits](#411-count-numbers-with-unique-digits)
   - [4.12 Number of Lines To Write String](#412-number-of-lines-to-write-string)
+  - [4.13 Insert Delete GetRandom O(1)](#413-insert-delete-getrandom-o1)
 
 ## 4.1 Array of Doubled Pairs
 
@@ -75,3 +76,7 @@ Hard 题我唯唯诺诺，Easy 题我直接一飞冲天啊！（其实还是偷�
 一道 easy，但是一时半会儿没想到解法……
 
 但是 easy 还是 easy 的
+
+## 4.13 Insert Delete GetRandom O(1)
+
+今天的题怎么突然考起数据结构了……有一说一非专业人士这块不过关啊
