@@ -7,7 +7,11 @@ import (
 )
 
 func main() {
-	widths := []int{4, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10}
-	S := "bbbcccdddaaa"
-	fmt.Printf("study2022_4.NumberOfLines(widths, S): %v\n", study2022_4.NumberOfLines(widths, S))
+	r := study2022_4.Constructor()
+	r.Insert(0)
+	r.Insert(1)
+	r.Remove(0)
+	r.Insert(2)
+	r.Remove(1)
+	fmt.Printf("r.GetRandom(): %v\n", r.GetRandom())
 }
