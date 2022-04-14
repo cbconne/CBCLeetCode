@@ -7,11 +7,6 @@ import (
 )
 
 func main() {
-	r := study2022_4.Constructor()
-	r.Insert(0)
-	r.Insert(1)
-	r.Remove(0)
-	r.Insert(2)
-	r.Remove(1)
-	fmt.Printf("r.GetRandom(): %v\n", r.GetRandom())
+	accounts := [][]int{{2, 8, 7}, {7, 1, 3}, {1, 9, 5}}
+	fmt.Printf("study2022_4.MaximumWealth(accounts): %v\n", study2022_4.MaximumWealth(accounts))
 }
