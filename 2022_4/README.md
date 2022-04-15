@@ -15,6 +15,7 @@
   - [4.12 Number of Lines To Write String](#412-number-of-lines-to-write-string)
   - [4.13 Insert Delete GetRandom O(1)](#413-insert-delete-getrandom-o1)
   - [4.14 Richest Customer Wealth](#414-richest-customer-wealth)
+  - [4.15 Mini Parser](#415-mini-parser)
 
 ## 4.1 Array of Doubled Pairs
 
@@ -87,3 +88,7 @@ Hard 题我唯唯诺诺，Easy 题我直接一飞冲天啊！（其实还是偷�
 一时没看出来这道题除了加法之外还有什么……
 
 虽然是道 easy 但是也太直接了……
+
+## 4.15 Mini Parser
+
+看不懂，而且是周五，CV 润了
