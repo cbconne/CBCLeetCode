@@ -16,6 +16,7 @@
   - [4.13 Insert Delete GetRandom O(1)](#413-insert-delete-getrandom-o1)
   - [4.14 Richest Customer Wealth](#414-richest-customer-wealth)
   - [4.15 Mini Parser](#415-mini-parser)
+  - [4.16 Largest Palindrome Product](#416-largest-palindrome-product)
 
 ## 4.1 Array of Doubled Pairs
 
@@ -92,3 +93,7 @@ Hard 题我唯唯诺诺，Easy 题我直接一飞冲天啊！（其实还是偷�
 ## 4.15 Mini Parser
 
 看不懂，而且是周五，CV 润了
+
+## 4.16 Largest Palindrome Product
+
+是 hard，而且是周六，摆了
