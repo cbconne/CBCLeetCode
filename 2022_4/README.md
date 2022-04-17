@@ -17,6 +17,7 @@
   - [4.14 Richest Customer Wealth](#414-richest-customer-wealth)
   - [4.15 Mini Parser](#415-mini-parser)
   - [4.16 Largest Palindrome Product](#416-largest-palindrome-product)
+  - [4.17 Most Common Word](#417-most-common-word)
 
 ## 4.1 Array of Doubled Pairs
 
@@ -97,3 +98,9 @@ Hard 题我唯唯诺诺，Easy 题我直接一飞冲天啊！（其实还是偷�
 ## 4.16 Largest Palindrome Product
 
 是 hard，而且是周六，摆了
+
+## 4.17 Most Common Word
+
+虽然是周末，但是既然是 easy……
+
+数据有点难看，但是通过了
