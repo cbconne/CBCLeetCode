@@ -18,6 +18,7 @@
   - [4.15 Mini Parser](#415-mini-parser)
   - [4.16 Largest Palindrome Product](#416-largest-palindrome-product)
   - [4.17 Most Common Word](#417-most-common-word)
+  - [4.18 Lexicographical Numbers](#418-lexicographical-numbers)
 
 ## 4.1 Array of Doubled Pairs
 
@@ -104,3 +105,9 @@ Hard 题我唯唯诺诺，Easy 题我直接一飞冲天啊！（其实还是偷�
 虽然是周末，但是既然是 easy……
 
 数据有点难看，但是通过了
+
+## 4.18 Lexicographical Numbers
+
+有点像之前某道题的前置/简单版
+
+好吧，其实差的还是蛮多的
