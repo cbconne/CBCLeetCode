@@ -19,6 +19,7 @@
   - [4.16 Largest Palindrome Product](#416-largest-palindrome-product)
   - [4.17 Most Common Word](#417-most-common-word)
   - [4.18 Lexicographical Numbers](#418-lexicographical-numbers)
+  - [4.19 Shortest Distance to a Character](#419-shortest-distance-to-a-character)
 
 ## 4.1 Array of Doubled Pairs
 
@@ -111,3 +112,7 @@ Hard 题我唯唯诺诺，Easy 题我直接一飞冲天啊！（其实还是偷�
 有点像之前某道题的前置/简单版
 
 好吧，其实差的还是蛮多的
+
+## 4.19 Shortest Distance to a Character
+
+是一道 easy，但是两次遍历这种思想确实没有想到以前也没接触过，~~又是获取了新知识的满足的一天呢！~~

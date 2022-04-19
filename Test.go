@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
-	n := 13
-	fmt.Printf("study2022_4.LexicalOrder(n): %v\n", study2022_4.LexicalOrder(n))
+	s := "aaab"
+	c := byte('b')
+	fmt.Printf("study2022_4.ShortestToChar(s, c): %v\n", study2022_4.ShortestToChar(s, c))
 }
