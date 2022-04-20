@@ -20,6 +20,7 @@
   - [4.17 Most Common Word](#417-most-common-word)
   - [4.18 Lexicographical Numbers](#418-lexicographical-numbers)
   - [4.19 Shortest Distance to a Character](#419-shortest-distance-to-a-character)
+  - [4.20 Longest Absolute File Path](#420-longest-absolute-file-path)
 
 ## 4.1 Array of Doubled Pairs
 
@@ -116,3 +117,7 @@ Hard 题我唯唯诺诺，Easy 题我直接一飞冲天啊！（其实还是偷�
 ## 4.19 Shortest Distance to a Character
 
 是一道 easy，但是两次遍历这种思想确实没有想到以前也没接触过，~~又是获取了新知识的满足的一天呢！~~
+
+## 4.20 Longest Absolute File Path
+
+官方题解确实说得太复杂，评论区大神的讲解比较容易理解
