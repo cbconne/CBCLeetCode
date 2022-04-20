@@ -7,7 +7,6 @@ import (
 )
 
 func main() {
-	s := "aaab"
-	c := byte('b')
-	fmt.Printf("study2022_4.ShortestToChar(s, c): %v\n", study2022_4.ShortestToChar(s, c))
+	input := "file1.txt\nfile2.txt\nlongfile.txt"
+	fmt.Printf("study2022_4.LengthLongestPath(input): %v\n", study2022_4.LengthLongestPath(input))
 }
