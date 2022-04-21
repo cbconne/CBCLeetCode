@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	input := "file1.txt\nfile2.txt\nlongfile.txt"
-	fmt.Printf("study2022_4.LengthLongestPath(input): %v\n", study2022_4.LengthLongestPath(input))
+	sentence := "I speak Goat Latin"
+	fmt.Printf("study2022_4.ToGoatLatin(sentence): %v\n", study2022_4.ToGoatLatin(sentence))
 }

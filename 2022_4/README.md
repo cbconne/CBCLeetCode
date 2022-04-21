@@ -21,6 +21,7 @@
   - [4.18 Lexicographical Numbers](#418-lexicographical-numbers)
   - [4.19 Shortest Distance to a Character](#419-shortest-distance-to-a-character)
   - [4.20 Longest Absolute File Path](#420-longest-absolute-file-path)
+  - [4.21 Goat Latin](#421-goat-latin)
 
 ## 4.1 Array of Doubled Pairs
 
@@ -121,3 +122,9 @@ Hard 题我唯唯诺诺，Easy 题我直接一飞冲天啊！（其实还是偷�
 ## 4.20 Longest Absolute File Path
 
 官方题解确实说得太复杂，评论区大神的讲解比较容易理解
+
+## 4.21 Goat Latin
+
+莫名好笑
+
+但是总之还是字符串处理，并不困难
