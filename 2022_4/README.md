@@ -22,6 +22,7 @@
   - [4.19 Shortest Distance to a Character](#419-shortest-distance-to-a-character)
   - [4.20 Longest Absolute File Path](#420-longest-absolute-file-path)
   - [4.21 Goat Latin](#421-goat-latin)
+  - [4.22 Rotate Function](#422-rotate-function)
 
 ## 4.1 Array of Doubled Pairs
 
@@ -128,3 +129,7 @@ Hard 题我唯唯诺诺，Easy 题我直接一飞冲天啊！（其实还是偷�
 莫名好笑
 
 但是总之还是字符串处理，并不困难
+
+## 4.22 Rotate Function
+
+周五，摸了
