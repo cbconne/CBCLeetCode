@@ -23,6 +23,7 @@
   - [4.20 Longest Absolute File Path](#420-longest-absolute-file-path)
   - [4.21 Goat Latin](#421-goat-latin)
   - [4.22 Rotate Function](#422-rotate-function)
+  - [4.23 Erect the Fence](#423-erect-the-fence)
 
 ## 4.1 Array of Doubled Pairs
 
@@ -133,3 +134,10 @@ Hard 题我唯唯诺诺，Easy 题我直接一飞冲天啊！（其实还是偷�
 ## 4.22 Rotate Function
 
 周五，摸了
+
+## 4.23 Erect the Fence
+
+艹，怎么是道这样的 hard，什么究极数学题
+
+随便选个算法看下吧……写是不太可能自己写了
+
