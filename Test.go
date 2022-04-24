@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	sentence := "I speak Goat Latin"
-	fmt.Printf("study2022_4.ToGoatLatin(sentence): %v\n", study2022_4.ToGoatLatin(sentence))
+	n := 5
+	fmt.Printf("study2022_4.BinaryGap(n): %v\n", study2022_4.BinaryGap(n))
 }
