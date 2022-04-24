@@ -24,6 +24,7 @@
   - [4.21 Goat Latin](#421-goat-latin)
   - [4.22 Rotate Function](#422-rotate-function)
   - [4.23 Erect the Fence](#423-erect-the-fence)
+  - [4.24 Binary Gap](#424-binary-gap)
 
 ## 4.1 Array of Doubled Pairs
 
@@ -141,3 +142,6 @@ Hard 题我唯唯诺诺，Easy 题我直接一飞冲天啊！（其实还是偷�
 
 随便选个算法看下吧……写是不太可能自己写了
 
+## 4.24 Binary Gap
+
+这是昨天太难了今天来道 easy 缓一缓吗
