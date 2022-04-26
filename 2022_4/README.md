@@ -26,6 +26,7 @@
   - [4.23 Erect the Fence](#423-erect-the-fence)
   - [4.24 Binary Gap](#424-binary-gap)
   - [4.25 Random Pick Index](#425-random-pick-index)
+  - [4.26 Projection Area of 3D Shapes](#426-projection-area-of-3d-shapes)
 
 ## 4.1 Array of Doubled Pairs
 
@@ -168,3 +169,7 @@ P(select^i_k)&=P(第i次抽取抽中)\cdot P(第i+1次抽取不中)\dots P(第k�
 $$
 
 因为会被后抽中的下标覆盖，因此第 i 次抽中后前 i-1 次的抽取结果无所谓/不用计算
+
+## 4.26 Projection Area of 3D Shapes
+
+一道说明非常复杂的 easy 题，看上去并不难，但是理解可能需要一定难度
