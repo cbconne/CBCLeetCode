@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	n := 5
-	fmt.Printf("study2022_4.BinaryGap(n): %v\n", study2022_4.BinaryGap(n))
+	grid := [][]int{{1, 2}, {3, 4}}
+	fmt.Printf("study2022_4.ProjectionArea(grid): %v\n", study2022_4.ProjectionArea(grid))
 }
