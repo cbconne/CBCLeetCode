@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	grid := [][]int{{1, 2}, {3, 4}}
-	fmt.Printf("study2022_4.ProjectionArea(grid): %v\n", study2022_4.ProjectionArea(grid))
+	nums := []int{3, 1, 2, 4}
+	fmt.Printf("study2022_4.SortArrayByParity(nums): %v\n", study2022_4.SortArrayByParity(nums))
 }
