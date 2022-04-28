@@ -28,6 +28,7 @@
   - [4.25 Random Pick Index](#425-random-pick-index)
   - [4.26 Projection Area of 3D Shapes](#426-projection-area-of-3d-shapes)
   - [4.27 Pacific Atlantic Water Flow](#427-pacific-atlantic-water-flow)
+  - [4.28 Sort Array By Parity](#428-sort-array-by-parity)
 
 ## 4.1 Array of Doubled Pairs
 
@@ -180,3 +181,7 @@ $$
 一道图的题目，无非深度优先、广度优先
 
 看题解有点复杂的，我选择 CV
+
+## 4.28 Sort Array By Parity
+
+easy
