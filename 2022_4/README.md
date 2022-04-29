@@ -29,6 +29,7 @@
   - [4.26 Projection Area of 3D Shapes](#426-projection-area-of-3d-shapes)
   - [4.27 Pacific Atlantic Water Flow](#427-pacific-atlantic-water-flow)
   - [4.28 Sort Array By Parity](#428-sort-array-by-parity)
+  - [4.29 Construct Quad Tree](#429-construct-quad-tree)
 
 ## 4.1 Array of Doubled Pairs
 
@@ -185,3 +186,7 @@ $$
 ## 4.28 Sort Array By Parity
 
 easy
+
+## 4.29 Construct Quad Tree
+
+假期，懂了吗？
