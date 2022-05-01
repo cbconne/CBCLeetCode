@@ -30,6 +30,7 @@
   - [4.27 Pacific Atlantic Water Flow](#427-pacific-atlantic-water-flow)
   - [4.28 Sort Array By Parity](#428-sort-array-by-parity)
   - [4.29 Construct Quad Tree](#429-construct-quad-tree)
+  - [4.30 Smallest Range I](#430-smallest-range-i)
 
 ## 4.1 Array of Doubled Pairs
 
@@ -190,3 +191,7 @@ easy
 ## 4.29 Construct Quad Tree
 
 假期，懂了吗？
+
+## 4.30 Smallest Range I
+
+四月最后一天的 easy，甚至感觉不用看题解
