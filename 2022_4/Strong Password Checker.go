@@ -2,7 +2,7 @@ package study2022_4
 
 import "unicode"
 
-func strongPasswordChecker(password string) int {
+func StrongPasswordChecker(password string) int {
 	hasLower, hasUpper, hasDigit := 0, 0, 0
 	for _, ch := range password {
 		if unicode.IsLower(ch) {
@@ -76,7 +76,8 @@ func strongPasswordChecker(password string) int {
 		// 由于每有一次替换次数就一定有 3 个连续相同的字符（k / 3 决定），因此这里可以直接计算出使用 k % 3 = 2 的组的数量
 		use3 := min(replace, remove/3)
 		replace -= use3
-		remove -= use3 * 3
+		// remove -= use3 * 3
+
 		return (n - 20) + max(replace, 3-categories)
 	}
 }
