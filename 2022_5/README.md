@@ -6,6 +6,7 @@
   - [5.3 Reorder Data in Log Files](#53-reorder-data-in-log-files)
   - [5.4 Find the Winner of the Circular Game](#54-find-the-winner-of-the-circular-game)
   - [5.5 Subarray Product Less Than K](#55-subarray-product-less-than-k)
+  - [5.6 Number of Recent Calls](#56-number-of-recent-calls)
 
 ## 5.1 All Elements in Two Binary Search Trees
 
@@ -29,3 +30,7 @@
 ## 5.5 Subarray Product Less Than K
 
 看了题解之后有思路了，但是还得是写了才能知道啊。
+
+## 5.6 Number of Recent Calls
+
+既然明天是周六，那么偷懒也是合情合理的吧！（不是
