@@ -7,6 +7,7 @@
   - [5.4 Find the Winner of the Circular Game](#54-find-the-winner-of-the-circular-game)
   - [5.5 Subarray Product Less Than K](#55-subarray-product-less-than-k)
   - [5.6 Number of Recent Calls](#56-number-of-recent-calls)
+  - [5.7 Minimum Genetic Mutation](#57-minimum-genetic-mutation)
 
 ## 5.1 All Elements in Two Binary Search Trees
 
@@ -34,3 +35,7 @@
 ## 5.6 Number of Recent Calls
 
 既然明天是周六，那么偷懒也是合情合理的吧！（不是
+
+## 5.7 Minimum Genetic Mutation
+
+md 明明周末比工作日还 tmd 忙，那 tmd 既然这样周三就别不调休按国家安排放啊？
