@@ -8,6 +8,7 @@
   - [5.5 Subarray Product Less Than K](#55-subarray-product-less-than-k)
   - [5.6 Number of Recent Calls](#56-number-of-recent-calls)
   - [5.7 Minimum Genetic Mutation](#57-minimum-genetic-mutation)
+  - [5.8 Find All Duplicates in an Array](#58-find-all-duplicates-in-an-array)
 
 ## 5.1 All Elements in Two Binary Search Trees
 
@@ -39,3 +40,7 @@
 ## 5.7 Minimum Genetic Mutation
 
 md 明明周末比工作日还 tmd 忙，那 tmd 既然这样周三就别不调休按国家安排放啊？
+
+## 5.8 Find All Duplicates in an Array
+
+没什么好说的。
