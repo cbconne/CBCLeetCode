@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	nums := []int{1}
-	fmt.Printf("study2022_5.FindDuplicates(nums): %v\n", study2022_5.FindDuplicates(nums))
+	s := "DDI"
+	fmt.Printf("study2022_5.DiStringMatch(s): %v\n", study2022_5.DiStringMatch(s))
 }
