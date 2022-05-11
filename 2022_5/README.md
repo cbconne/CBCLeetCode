@@ -11,6 +11,7 @@
   - [5.8 Find All Duplicates in an Array](#58-find-all-duplicates-in-an-array)
   - [5.9 DI String Match](#59-di-string-match)
   - [5.10 Cat and Mouse II](#510-cat-and-mouse-ii)
+  - [5.11 Serialize and Deserialize BST](#511-serialize-and-deserialize-bst)
 
 ## 5.1 All Elements in Two Binary Search Trees
 
@@ -54,3 +55,7 @@ md 明明周末比工作日还 tmd 忙，那 tmd 既然这样周三就别不调�
 ## 5.10 Cat and Mouse II
 
 Hard, 好的，摆烂的一天
+
+## 5.11 Serialize and Deserialize BST
+
+沉迷打牌时间不太够了，摆
