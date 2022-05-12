@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	s := "DDI"
-	fmt.Printf("study2022_5.DiStringMatch(s): %v\n", study2022_5.DiStringMatch(s))
+	strs := []string{"zyx", "wvu", "tsr"}
+	fmt.Printf("study2022_5.MinDeletionSize(strs): %v\n", study2022_5.MinDeletionSize(strs))
 }

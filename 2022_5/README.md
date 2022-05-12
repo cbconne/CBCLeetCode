@@ -12,6 +12,7 @@
   - [5.9 DI String Match](#59-di-string-match)
   - [5.10 Cat and Mouse II](#510-cat-and-mouse-ii)
   - [5.11 Serialize and Deserialize BST](#511-serialize-and-deserialize-bst)
+  - [5.12 Delete Columns to Make Sorted](#512-delete-columns-to-make-sorted)
 
 ## 5.1 All Elements in Two Binary Search Trees
 
@@ -59,3 +60,7 @@ Hard, 好的，摆烂的一天
 ## 5.11 Serialize and Deserialize BST
 
 沉迷打牌时间不太够了，摆
+
+## 5.12 Delete Columns to Make Sorted
+
+还是刷题有意思！刷！~~（才不是因为今天是 easy 而且打牌被打爆了。去 tmd 毁灭凤凰人）~~
