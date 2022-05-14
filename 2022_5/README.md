@@ -13,7 +13,7 @@
   - [5.10 Cat and Mouse II](#510-cat-and-mouse-ii)
   - [5.11 Serialize and Deserialize BST](#511-serialize-and-deserialize-bst)
   - [5.12 Delete Columns to Make Sorted](#512-delete-columns-to-make-sorted)
-  - [5.13 Stickers to Spell Word](#513-stickers-to-spell-word)
+  - [5.14 Stickers to Spell Word](#514-stickers-to-spell-word)
 
 ## 5.1 All Elements in Two Binary Search Trees
 
@@ -66,6 +66,8 @@ Hard, 好的，摆烂的一天
 
 还是刷题有意思！刷！~~（才不是因为今天是 easy 而且打牌被打爆了。去 tmd 毁灭凤凰人）~~
 
-## 5.13 Stickers to Spell Word
+## 5.14 Stickers to Spell Word
 
 又是 hard，直接放弃
+
+甚至发现自己昨天忘记提交了……不过昨天好像也是 cv 来着，不管了。
