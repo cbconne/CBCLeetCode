@@ -15,6 +15,7 @@
   - [5.12 Delete Columns to Make Sorted](#512-delete-columns-to-make-sorted)
   - [5.14 Stickers to Spell Word](#514-stickers-to-spell-word)
   - [5.15 Largest Triangle Area](#515-largest-triangle-area)
+  - [5.16 Successor LCCI](#516-successor-lcci)
 
 ## 5.1 All Elements in Two Binary Search Trees
 
@@ -78,3 +79,5 @@ Hard, 好的，摆烂的一天
 easy 是吧！你爷爷莱纳！
 
 ……确实不难，但是三角形面积实在不记得啊……
+
+## 5.16 Successor LCCI
