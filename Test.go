@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	strs := []string{"zyx", "wvu", "tsr"}
-	fmt.Printf("study2022_5.MinDeletionSize(strs): %v\n", study2022_5.MinDeletionSize(strs))
+	s := "()()"
+	fmt.Printf("study2022_5.RemoveOuterParentheses(s): %v\n", study2022_5.RemoveOuterParentheses(s))
 }

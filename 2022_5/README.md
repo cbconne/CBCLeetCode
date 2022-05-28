@@ -17,6 +17,8 @@
   - [5.15 Largest Triangle Area](#515-largest-triangle-area)
   - [5.16 Successor LCCI](#516-successor-lcci)
   - [5.17](#517)
+  - [5.21 N-Repeated Element in Size 2N Array](#521-n-repeated-element-in-size-2n-array)
+  - [5.28 Remove Outermost Parentheses](#528-remove-outermost-parentheses)
 
 ## 5.1 All Elements in Two Binary Search Trees
 
@@ -84,3 +86,11 @@ easy 是吧！你爷爷莱纳！
 ## 5.16 Successor LCCI
 
 ## 5.17
+
+## 5.21 N-Repeated Element in Size 2N Array
+
+随机真是骚断了腰啊我靠，看到官方题解就笑出了声。
+
+## 5.28 Remove Outermost Parentheses
+
+摆烂了挺久的，今天是道简单题，就以此为契机恢复正常刷题节奏吧。
