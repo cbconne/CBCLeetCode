@@ -3,10 +3,11 @@ package main
 import (
 	"fmt"
 
-	study2022_5 "./2022_5"
+	study2022_6 "./2022_6"
 )
 
 func main() {
-	s := "()()"
-	fmt.Printf("study2022_5.RemoveOuterParentheses(s): %v\n", study2022_5.RemoveOuterParentheses(s))
+	emails := []string{"a@leetcode.com", "b@leetcode.com", "c@leetcode.com"}
+	fmt.Printf("study2022_6.NumUniqueEmails(emails): %v\n", study2022_6.NumUniqueEmails(emails))
+
 }
