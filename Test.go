@@ -7,7 +7,8 @@ import (
 )
 
 func main() {
-	emails := []string{"a@leetcode.com", "b@leetcode.com", "c@leetcode.com"}
-	fmt.Printf("study2022_6.NumUniqueEmails(emails): %v\n", study2022_6.NumUniqueEmails(emails))
+	piles := []int{3, 6, 7, 11}
+	h := 8
+	fmt.Printf("study2022_6.MinEatingSpeed(piles, h): %v\n", study2022_6.MinEatingSpeed(piles, h))
 
 }
