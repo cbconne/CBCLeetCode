@@ -7,8 +7,6 @@ import (
 )
 
 func main() {
-	piles := []int{3, 6, 7, 11}
-	h := 8
-	fmt.Printf("study2022_6.MinEatingSpeed(piles, h): %v\n", study2022_6.MinEatingSpeed(piles, h))
-
+	points := [][]int{{1, 1}, {2, 2}, {3, 3}}
+	fmt.Printf("study2022_6.IsBoomerang(points): %v\n", study2022_6.IsBoomerang(points))
 }
