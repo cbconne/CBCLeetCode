@@ -2,15 +2,15 @@ package study2022_6
 
 import "math/rand"
 
-type Solution struct {
+type Solution_0607 struct {
 	x_center, y_center, radius float64
 }
 
-func Constructor(radius float64, x_center float64, y_center float64) Solution {
-	return Solution{x_center, y_center, radius}
+func Constructor_20220607(radius float64, x_center float64, y_center float64) Solution_0607 {
+	return Solution_0607{x_center, y_center, radius}
 }
 
-func (this *Solution) RandPoint() []float64 {
+func (this *Solution_0607) RandPoint() []float64 {
 	for {
 		x := rand.Float64()*2 - 1
 		y := rand.Float64()*2 - 1
