@@ -1,6 +1,10 @@
 # 2022.6
 
 - [2022.6](#20226)
+  - [6.5 Generate Random Point in a Circle](#65-generate-random-point-in-a-circle)
+  - [6.7 Koko Eating Bananas](#67-koko-eating-bananas)
+  - [6.8 Valid Boomerang](#68-valid-boomerang)
+
 
 ## 6.5 Generate Random Point in a Circle
 
