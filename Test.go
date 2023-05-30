@@ -9,7 +9,7 @@ import (
 func main() {
 	// 每日一题
 	fmt.Println("每日一题：")
-	study2023_5.AverageValueTest()
+	study2023_5.DelNodesTest()
 
 	// 面试题
 	fmt.Println("面试题：")
