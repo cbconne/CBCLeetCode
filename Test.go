@@ -1,7 +1,7 @@
 package main
 
 import (
-	study2023_5 "cbcLeetCode/2023_5"
+	study2023_05 "cbcLeetCode/2023_05"
 	Interview_150 "cbcLeetCode/Interview_150"
 	"fmt"
 )
@@ -9,7 +9,7 @@ import (
 func main() {
 	// 每日一题
 	fmt.Println("每日一题：")
-	study2023_5.DelNodesTest()
+	study2023_05.MctFromLeafValuesTest()
 
 	// 面试题
 	fmt.Println("面试题：")
