@@ -1,4 +1,4 @@
-package study2023_5
+package study2023_05
 
 /**
  * Definition for a binary tree node.

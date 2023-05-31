@@ -1,4 +1,4 @@
-package study2023_5
+package study2023_05
 
 func averageValue(nums []int) int {
 	var sum int
