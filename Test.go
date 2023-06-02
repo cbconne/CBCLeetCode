@@ -9,7 +9,7 @@ import (
 func main() {
 	// 每日一题
 	fmt.Println("每日一题：")
-	study2023_06.MaximunTastinessTest()
+	study2023_06.VowelStringsTest()
 
 	// 面试题
 	fmt.Println("面试题：")
