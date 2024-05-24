@@ -12,5 +12,5 @@ func main() {
 
 	// 面试题
 	fmt.Println("面试题：")
-	Interview_150.SetZeroesTest()
+	Interview_150.GameOfLifeTest()
 }
