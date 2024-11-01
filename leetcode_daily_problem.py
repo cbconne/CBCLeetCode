@@ -99,6 +99,20 @@ def create_file(problem_name, problem_info, language="Go"):
             f.write("\n")
             f.write("}")
             # end
+    elif language == "Python3":
+        folder_name = f"python_{folder_name}"
+        if not os.path.exists(folder_name):
+            os.makedirs(folder_name)
+        file_name = os.path.join(folder_name, problem_name + ".py")
+        with open(file_name, "w") as f:
+            f.write(codeSnippets)
+            f.write("\n")
+            f.write("\n")
+            f.write("if __name__ == '__main__':")
+            f.write("\n")
+            f.write("    solution = Solution()")
+            f.write("\n")
+            # end
     else:
         print("Language not supported!")
 
