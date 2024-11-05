@@ -9,7 +9,7 @@ public class IncreasingOrderSearchTree {
         TreeNode treeNode3 = new TreeNode(8, new TreeNode(7), new TreeNode(9));
         TreeNode treeNode4 = new TreeNode(6, null, treeNode3);
         TreeNode root = new TreeNode(5, treeNode2, treeNode4);
-        TreeNode treeNode = increasingOrderSearchTree.increasingBST(root);
+        increasingOrderSearchTree.increasingBST(root);
         System.out.println("ok");
     }
 
@@ -34,7 +34,6 @@ public class IncreasingOrderSearchTree {
         inorder(treeNode.right);
     }
 }
-
 
 class TreeNode {
     int val;
