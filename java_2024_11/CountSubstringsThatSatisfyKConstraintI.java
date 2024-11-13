@@ -43,7 +43,7 @@ class CountSubstringsThatSatisfyKConstraintI {
 
     public static void main(String[] args) {
         CountSubstringsThatSatisfyKConstraintI countSubstringsThatSatisfyKConstraintI = new CountSubstringsThatSatisfyKConstraintI();
-        System.out.println(countSubstringsThatSatisfyKConstraintI.countKConstraintSubstrings("10101", 1));
-        System.out.println(countSubstringsThatSatisfyKConstraintI.countKConstraintSubstrings("1010101", 2));
+        System.out.println(countSubstringsThatSatisfyKConstraintI.countKConstraintSubstrings("0001111", 2));
+        // System.out.println(countSubstringsThatSatisfyKConstraintI.countKConstraintSubstrings("1010101", 2));
     }
 }
