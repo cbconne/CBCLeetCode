@@ -125,6 +125,10 @@ if __name__ == "__main__":
     random.seed(seed)
     today_language = random.choice(languages)
     print(f"Today's development language is : {today_language}")
+    seed = seed + 1
+    random.seed(seed)
+    tomorrow_language = random.choice(languages)
+    print(f"Tomorrow's development language is : {tomorrow_language}")
     problem_name = get_daily_problem_title()
     problem_info = get_daily_problem_info(problem_name)
     create_file(problem_name, problem_info, today_language)

@@ -2,6 +2,7 @@ package go_2024_11
 
 import "fmt"
 
+// 该方法存在性能问题，提交后超时，需要使用前缀和进行优化
 func countKConstraintSubstrings(s string, k int, queries [][]int) []int64 {
 
 	resList := make([]int64, len(queries))
