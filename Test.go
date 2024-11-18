@@ -8,7 +8,7 @@ import (
 func main() {
 	// // 每日一题
 	fmt.Println("每日一题：")
-	go_2024_11.CountKConstraintSubstringsTest()
+	go_2024_11.ImageSmootherTest()
 
 	// 面试题
 	// fmt.Println("面试题：")
