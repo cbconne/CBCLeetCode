@@ -132,3 +132,4 @@ if __name__ == "__main__":
     problem_name = get_daily_problem_title()
     problem_info = get_daily_problem_info(problem_name)
     create_file(problem_name, problem_info, today_language)
+    print(f"LeetCode Daily Problem URL: https://leetcode.cn/problems/{problem_name}/")
