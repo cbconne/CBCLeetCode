@@ -8,7 +8,7 @@ import (
 func main() {
 	// 每日一题
 	fmt.Println("每日一题：")
-	go_2025_04.TestCountSymmetricIntegers()
+	go_2025_04.TestCountBadPairs()
 
 	// 面试题
 	// fmt.Println("面试题：")
