@@ -1,8 +1,9 @@
-import os
-import requests
 import json
+import os
 import random
 import time
+
+import requests
 
 base_url = "https://leetcode.cn"
 
@@ -123,7 +124,9 @@ if __name__ == "__main__":
     # 从以上列表中随机抽取一个语言作为今天的开发语言，随机数种子使用今天的日期（yyyymmdd)
     seed = int(time.strftime("%Y%m%d"))
     random.seed(seed)
-    today_language = random.choice(languages)
+    # today_language = random.choice(languages)
+    # 大人时代变了，掌握算法内的知识就好，什么语言不重要
+    today_language = "Python3"
     print(f"Today's development language is : {today_language}")
     seed = seed + 1
     random.seed(seed)
