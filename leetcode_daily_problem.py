@@ -111,7 +111,9 @@ def create_file(problem_name, problem_info, language="Go"):
             f.write("\n")
             f.write("if __name__ == '__main__':")
             f.write("\n")
-            f.write("    solution = Solution()")
+            f.write("    import doctest")
+            f.write("\n")
+            f.write("    doctest.testmod(verbose=True)")
             f.write("\n")
             # end
     else:
