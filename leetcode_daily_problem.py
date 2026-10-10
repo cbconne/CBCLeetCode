@@ -107,6 +107,9 @@ def create_file(problem_name, problem_info, language="Go"):
         file_name = os.path.join(folder_name, problem_name + ".py")
         with open(file_name, "w") as f:
             f.write(codeSnippets)
+            f.write('        """')
+            f.write("        >>> solution = Solution()")
+            f.write('        """')
             f.write("\n")
             f.write("\n")
             f.write("if __name__ == '__main__':")
